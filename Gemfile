@@ -27,7 +27,24 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 
 #React.js library 
-gem 'react-rails'
+gem 'react-rails', '~> 2.2'
+
+gem 'react-router-rails', '~> 0.11.6.1'
+
+#Node
+gem 'nodejs-rails', '~> 0.0.1'
+
+#Webpacker
+gem 'webpacker'
+
+#yarn
+gem 'yarn', '~> 0.1.1'
+
+#SASS
+gem 'sass', '~> 3.4', '>= 3.4.22'
+
+#Bootstrap
+gem 'react-bootstrap-rails', '~> 0.13.0'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

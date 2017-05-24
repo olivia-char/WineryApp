@@ -1,10 +1,10 @@
-var Body = React.createClass ({
+var Shop = React.createClass({
 	render(){
 		return (
 			<div>
-				<About />
+				<Header />
 				<Wine />
 			</div>
 		)
 	}
-})
+});

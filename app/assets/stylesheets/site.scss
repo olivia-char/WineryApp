@@ -1,3 +1,129 @@
 // Place all the styles related to the Site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+	font-family: DancingScript;
+	src: url(DancingScript-Regular.otf)
+}
+
+body {
+	background-color: #D1CFE2;
+}
+
+// Header CSS
+.header {
+	height: 175px;
+	display: block;
+}
+
+.log {
+	margin-bottom: 25px;
+	border-bottom: 1px solid silver;
+}
+
+.log a {
+	margin-left: 95%;
+	text-decoration: none;
+	font-family: Copperplate;
+	color: #454851;
+}
+
+.box1 {
+	margin: 0px 0px 0px 33px;
+	vertical-align: top;
+	display: inline-block;
+	width: 28%;
+	color: #454851;
+}
+
+.box1 a:first-child {
+	margin-right: 20px;
+}
+
+.box2 {
+	border-right: 1px solid #454851;
+	border-left: 1px solid #454851;
+	display: inline-block;
+	width: 38%;
+	height: 110px;
+}
+
+.box2 h1 {
+	margin: 5px 0px 0px 25px;
+	font-size: 80px;
+	font-family: DancingScript;	
+
+}
+
+.box3 {
+	color: #454851;
+	vertical-align: top;
+	display: inline-block;
+	width: 28%;
+}
+.box3 a:first-child {
+	margin-right: 20px;
+}
+.quoteBox {
+	vertical-align: top;
+	border-bottom: 1px solid #454851;
+	text-align: center;
+	padding-bottom: 5px;
+	font-family: DancingScript;
+}
+.quoteBox h2 {
+	margin: 0px 0px 0px 0px;
+	display: inline;
+	font-size: 30px;
+}
+.quoteBox p {
+	font-size: 22px;
+	margin: 0px 0px 0px 0px;
+	display: inline;
+}
+
+.quoteBox h5 {
+	margin: 0px 0px 0px 0px;
+}
+
+.tabs {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.tabs a {
+	text-decoration: none;
+	color: #454851;
+	font-family: Copperplate;
+	font-size: 25px;
+}
+
+// End Header
+
+//Our Story CSS
+
+.aboutBox {
+	
+}
+
+.intro {
+	background-image: url(IMG_1332.jpg);
+	height: 500px;
+	border: 1px solid silver;
+}
+
+.intro button {
+}
+
+.ourStory {
+	margin: 0px 0px 0px 0px;
+	background-color: #AFC97E;
+}
+
+//End 
+
+.wineBox {
+	background-color: #B2A3B5;
+	height: 600px;
+}
