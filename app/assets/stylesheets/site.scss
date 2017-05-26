@@ -179,34 +179,91 @@ h1 a {
 	margin: 0px 0px 0px 900px;
 }
 .wineIntro {
+	margin-bottom: 150px;
 	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
 }
 //End Landing
 //Our Story CSS
 
-.aboutBox {
-}
-
-.intro {
-	background-image: url(IMG_1332.jpg);
-	height: 600px;
-	border: 1px solid silver;
-}
-
-.intro button {
-}
-
 .ourStory {
 	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
-	padding: 20px;
+	font-size: 20px;
+	margin-bottom: 125px;
 }
 
-.ourWine {
-	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+.introImg {
+	background-image: url(IMG_1332.jpg);
+	width: 75%;
+	height: 500px;
+	margin: 0px 0px 0px 175px;
 }
 
 .ourBio {
+	margin-left: 35%;
+	margin-bottom: 125px;
+	width: 50%;
 	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+}
+
+.bio1 {
+	width: 250px;
+	display: inline-block;
+	margin: 50px 0px 0px 75px;
+	text-align: center;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.bioPicJohn {
+	height: 250px;
+	width: 250px;
+	background-color: green;
+}
+.bio2 {
+	width: 250px;
+	display: inline-block;
+	margin: 50px 0px 0px 75px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.bioPicJulia {
+	height: 250px;
+	width: 250px;
+	background-color: green;
+}
+
+
+.ourWine {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.ourWineBox {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+	display: inline-block;
+	width: 100%;
+	margin: 75px 0px 0px 0px;
+	font-size: 20px;
+	text-align: right;
+}
+
+.ourWineBox p {
+	width: 50%;
+	margin-left: 125px;
+}
+
+.ourWineBox h1 {
+	margin-right: 600px;
+	font-family: DancingScript;
+}
+.ourWineImg {
+	position: absolute;
+	display: inline-block;
+	width: 375px;
+	height: 475px;
+	background-color: blue;
+	margin: 0px 0px 0px 900px;
 }
 //End Our Story 
 //Wine Shop Css
@@ -245,20 +302,34 @@ h1 a {
 //End Wine Shop
 // Membership
 
-.membership {
-}
-
 .newMember {
+	margin-bottom: 150px;
 }
 
 .newMemberBox {
 	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
-	height: 400px;
+	height: 500px;
+	text-align: right;
+}
+
+.newMemberBox h1, h3 {
+	margin-left: 200px;
+	width: 40%;
+}
+
+.newMemberBox h1 {
+	font-family: DancingScript;
+}
+
+.joinBox {
+	margin-right: 665px;
 }
 .newMemberImg {
+	position:absolute;
 	background-color: green;
-	width: 25%;
+	width: 400px;
 	height: 600px;
+	margin: 0px 0px 0px 825px;
 }
 .memberBenefits {
 	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);

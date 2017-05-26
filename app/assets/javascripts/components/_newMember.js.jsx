@@ -4,13 +4,15 @@ var NewMember = React.createClass({
 		return (
 			<div className="membership">
 				<div className="newMember">
-					<div className="newMemberBox">
-						<h1>Join Glenét Vineyards</h1>
-						<h3>THis is a line about discovering the amazingness of the Glenét Vineyards Wine Membership</h3>
-						<button>Join Now</button>
-						<p>Already a member? <a href="#">Login</a> now.</p>
-					</div>
 					<div className="newMemberImg"></div>
+					<div className="newMemberBox">
+						<h1>Become a <b>Glenét Vineyards</b> Member</h1>
+						<h3>THis is a line about discovering the amazingness of the Glenét Vineyards Wine Membership</h3>
+						<div className="joinBox">
+							<button><a href="#">Join Now</a></button>
+							<p>Already a member? <a href="#">Login</a> now.</p>
+						</div>
+					</div>
 				</div>
 
 				<div className="memberBenefits">

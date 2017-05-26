@@ -3,7 +3,7 @@ var Wine = React.createClass({
 		return (
 			<div className="wineShop">
 				<h3>Hand-crafted Small Acreage Wines from Glenét Vineyards in Sonoma Valley Appellation including our special designated Glenét Melange (seven-vine red blend)</h3>
-			
+
 				<div className="wineBox">
 					<p>2016 Glenét Mélange</p> 
 					<p>Sonoma Valley Estate Wine</p>

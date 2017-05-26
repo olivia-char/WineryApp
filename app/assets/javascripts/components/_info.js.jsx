@@ -2,7 +2,7 @@ var Info = React.createClass({
 	render(){
 		return (
 			<div className="joinUs">
-				<h1>THis is the contact page</h1>
+				<h1>Want to Find Out When the Next Batch is Out?</h1>
 				<p>Glenét Vineyards Wines and Membership are for discerning wine aficionados looking for unique, small-lot, hand-crafted varietals grown, harvested, fermented, and bottled under boutique conditions to create a remarkable product. </p>
 				<p>Contact Us</p>
 				<p>Thank you for seeking out our uniquely grown and designated small acreage production wines.  We look forward to meeting you.</p>

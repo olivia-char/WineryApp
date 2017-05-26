@@ -13,8 +13,10 @@ var Intro = React.createClass({
 					<div className="glenetImg"></div>
 					<div className="glenetBox">
 						<h1>The Bounty of <b>Glenét Vineyards</b></h1>
-						<p>We are especially grateful to live, farm and personally craft our own unique wines in such an amazing place.  Sonoma Valley, which is located 90 minutes North of San Francisco, is such a special area nestled between the Mayacamas and Sonoma Mountains about 35 miles East of the Pacific Ocean. The moderate temperatures during spring and summer generates pleasant days with a daily ocean breeze that gently wisps through the Valley each afternoon, all of which provides an ideal climate for growing our wines.</p>
-						<button>Discover</button>
+						<p>We are especially grateful to live, farm and personally craft our own unique wines in such an amazing place.</p> 
+						<p>Sonoma Valley, which is located 90 minutes North of San Francisco, is such a special area nestled between the Mayacamas and Sonoma Mountains about 35 miles East of the Pacific Ocean.</p>
+						<p>The moderate temperatures during spring and summer generates pleasant days with a daily ocean breeze that gently wisps through the Valley each afternoon, all of which provides an ideal climate for growing our wines.</p>
+						<button><a href="/about">Discover</a></button>
 					</div>	
 				</div>
 				<div className="wineIntro">
