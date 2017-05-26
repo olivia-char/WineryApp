@@ -1,9 +1,9 @@
-var Main = React.createClass({
+var Landing = React.createClass({
 	render(){
 		return (
 			<div>
 				<Header />
-				<About />
+				<Intro />
 			</div>
 		)
 	}

@@ -6,6 +6,7 @@ var Header = React.createClass({
 			<div className="header">
 				<div className="log">
 					<a href="#">Login</a>
+					<a href="#">Cart</a>
 				</div>
 				
 				<div className="box1">
@@ -14,13 +15,13 @@ var Header = React.createClass({
 						<h5>~Luis Fernando Olaverri</h5>
 					</div>
 					<div className="tabs">
-						<a href="/">Our Story</a>
+						<a href="/about">Our Story</a>
 						<a href="/contact">Join Us</a>
 					</div>
 				</div>
 
 				<div className="box2">
-					<h1>Glenét Vineyards</h1>
+					<h1><a href="/">Glenét Vineyards</a></h1>
 				</div>
 				
 				<div className="box3">

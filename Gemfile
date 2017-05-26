@@ -29,7 +29,7 @@ gem 'bcrypt', '~> 3.1.7'
 #React.js library 
 gem 'react-rails', '~> 2.2'
 
-gem 'react-router-rails', '~> 0.11.6.1'
+gem 'react-rails-img'
 
 #Node
 gem 'nodejs-rails', '~> 0.0.1'
@@ -45,6 +45,8 @@ gem 'sass', '~> 3.4', '>= 3.4.22'
 
 #Bootstrap
 gem 'react-bootstrap-rails', '~> 0.13.0'
+
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'

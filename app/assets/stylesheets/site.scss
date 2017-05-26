@@ -8,25 +8,30 @@
 }
 
 body {
-	background-color: #D1CFE2;
+	
 }
 
 // Header CSS
+
 .header {
-	height: 175px;
+	height: 180px;
 	display: block;
 }
 
 .log {
-	margin-bottom: 25px;
+	margin: 10px 0px 25px 0px;
 	border-bottom: 1px solid silver;
 }
 
 .log a {
-	margin-left: 95%;
+	margin-left: 20px;
 	text-decoration: none;
 	font-family: Copperplate;
 	color: #454851;
+}
+
+.log a:first-child {
+	margin-left: 90%;
 }
 
 .box1 {
@@ -53,7 +58,15 @@ body {
 	margin: 5px 0px 0px 25px;
 	font-size: 80px;
 	font-family: DancingScript;	
-
+}
+h1 a:link {
+	text-decoration: none;
+}
+h1 a:hover {
+	color:black;
+}
+h1 a {
+	color:black;
 }
 
 .box3 {
@@ -100,16 +113,83 @@ body {
 }
 
 // End Header
+//Landing Page
 
+.welcome {
+	font-family: DancingScript;
+	margin: 0px 0px 150px 0px;
+	width: 100%;
+	height: 550px;
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+}
+.welcomeBox {
+	vertical-align: top;
+	margin: 200px 0px 0px 100px;
+	display: inline-block;
+	width: 35%;	
+	text-align: center;
+}
+.welcome h1 {
+	font-size: 40px;
+}
+.welcomeImg {
+	margin: 110px 0px 0px 45px;
+	display: inline-block;
+	width: 700px;
+	height: 475px;
+	background-image: url(IMG2_vineyard.jpg)
+}
+.sonoma {
+	font-size: 60px;
+}
+.glenetIntro {
+	margin-bottom: 150px;
+	width: 100%;
+}
+
+.glenetImg {
+	position: absolute;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 50px 0px 0px 100px;
+	background-image: url(IMG_vineyard.jpg);
+}
+
+.glenetBox {
+	margin-top: 100px;
+	vertical-align: top;
+	display: inline-block;
+	width:100%;
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+}
+
+.glenetBox h1 {
+	margin: 100px 0px 0px 550px;
+	border-bottom: 1px solid silver;
+	font-family: DancingScript;
+}
+
+.glenetBox p {
+	margin: 0px 0px 0px 550px;
+	font-size: 25px;
+}
+
+.glenetBox button {
+	margin: 0px 0px 0px 900px;
+}
+.wineIntro {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+}
+//End Landing
 //Our Story CSS
 
 .aboutBox {
-	
 }
 
 .intro {
 	background-image: url(IMG_1332.jpg);
-	height: 500px;
+	height: 600px;
 	border: 1px solid silver;
 }
 
@@ -117,13 +197,79 @@ body {
 }
 
 .ourStory {
-	margin: 0px 0px 0px 0px;
-	background-color: #AFC97E;
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+	padding: 20px;
 }
 
-//End 
+.ourWine {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+}
+
+.ourBio {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+}
+//End Our Story 
+//Wine Shop Css
+
+.wineShop {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+	
+}
+
+.wineShop h3{
+	width: 50%;
+	background-color: blue;
+}
 
 .wineBox {
-	background-color: #B2A3B5;
+	vertical-align:top;
+	width: 25%;
+	background-color: green;
+	display: inline-block;
+	margin-left: 20px; 
+}
+
+.wineBottle {
+	width: 50%;
+	background-color: purple;
+	height: 300px;
+}
+
+.qty {
+	color: white;
+	background-color: blue;
+	width: 50px;
+	height: 50px;
+}
+
+//End Wine Shop
+// Membership
+
+.membership {
+}
+
+.newMember {
+}
+
+.newMemberBox {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+	height: 400px;
+}
+.newMemberImg {
+	background-color: green;
+	width: 25%;
 	height: 600px;
 }
+.memberBenefits {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);
+	height: 300px;
+}
+//End Membership
+
+//Contact Page
+
+.joinUs {
+	background-image: url(http://www.cambriawines.com/sites/default/files/bg/bg-full-width-texture-short-mobile.jpg);	
+}
+
+//End Contact

@@ -1,9 +1,9 @@
-var Membership = React.createClass({
+var OurStory = React.createClass({
 	render(){
 		return (
 			<div>
 				<Header />
-				<NewMember />
+				<About />
 			</div>
 		)
 	}
