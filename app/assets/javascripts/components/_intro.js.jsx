@@ -33,6 +33,11 @@ var Intro = React.createClass({
 						<p>This is a pino noir description</p>
 					</div>
 				</div>
+				<div className="introNav">
+					<button><a href="/wine">Our Wines</a></button>
+					<button><a href="/membership">Become a Member</a></button>
+					<button><a href="/wine">Join Us</a></button>
+				</div>
 			</div>
 		)
 	}

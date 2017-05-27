@@ -5,11 +5,9 @@ var About = React.createClass({
 		return (
 			<div className="aboutBox">
 				<div className="ourStory">
-					<div className="aboutIntro">
-						<p>Overwhelmed by its natural beauty and mesmerized by its stunning mountain and vineyard vistas, we settled in Glen Ellen&rsquo;s Sonoma Valley Appellation in 1998. Soon after, we planted our Glenét Vineyards on our flowing valley property with rich Terre, excellent for growing high-quality wines destined to be fully accentuated by the ideal climate of Sonoma Valley&rsquo;s Viticulture Area.</p>
-					</div>
 					<div className="introImg"></div>
 					<div className="aboutIntro">
+						<p>Overwhelmed by its natural beauty and mesmerized by its stunning mountain and vineyard vistas, we settled in Glen Ellen&rsquo;s Sonoma Valley Appellation in 1998. Soon after, we planted our Glenét Vineyards on our flowing valley property with rich Terre, excellent for growing high-quality wines destined to be fully accentuated by the ideal climate of Sonoma Valley&rsquo;s Viticulture Area.</p>
 						<p>In 2002, we planted our first two vineyards, a <i>Pinot Gris</i> block and our own unique red blend designate <i>Glenét Mélange,</i> which is a mixture of 80% Cabernet Sauvignon (three varietals) and 5% each of Petit Verdot, Merlot, Cabernet Franc, and Syrah.</p>
 						<p>In 2016, we complimented our <i>Estate Pinot Gris</i> and <i>Glenét Mélange</i> varietals with a <i>Pinot Noir</i> whose fruit we source from neighboring vineyards, also within our Sonoma Valley Appellation.</p>
 					</div>
