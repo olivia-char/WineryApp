@@ -1,4 +1,7 @@
-var Shop = React.createClass({
+class Shop extends React.Component {
+	constructor(props) {
+    	super(props);
+    }
 	render(){
 		return (
 			<div>
@@ -7,4 +10,4 @@ var Shop = React.createClass({
 			</div>
 		)
 	}
-});
+}

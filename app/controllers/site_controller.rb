@@ -13,4 +13,7 @@ class SiteController < ApplicationController
 
   def about
   end
+
+  def register
+  end
 end

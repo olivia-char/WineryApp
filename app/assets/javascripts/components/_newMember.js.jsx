@@ -1,5 +1,7 @@
-
-var NewMember = React.createClass({
+class NewMember extends React.Component {
+	constructor(props) {
+    	super(props);
+    }
 	render(){
 		return (
 			<div className="membership">
@@ -7,9 +9,9 @@ var NewMember = React.createClass({
 					<div className="newMemberImg"></div>
 					<div className="newMemberBox">
 						<h1>Become a <b>Glenét Vineyards</b> Member</h1>
-						<h3>THis is a line about discovering the amazingness of the Glenét Vineyards Wine Membership</h3>
+						<p>Glenét Vineyards Wines and Membership are for discerning wine aficionados looking for unique, small-lot, hand-crafted varietals grown, harvested, fermented, and bottled under boutique conditions to create a remarkable product. </p>
 						<div className="joinBox">
-							<button><a href="#">Join Now</a></button>
+							<a href="/register" className="buyButton">Join Now</a>
 							<p>Already a member? <a href="#">Login</a> now.</p>
 						</div>
 					</div>
@@ -25,27 +27,47 @@ var NewMember = React.createClass({
 							<li>Be the first to receive our new release in your membership shipments.</li>
 							<li>No cost to join and no monthly membership fees.</li>
 						</ul>
-						<button><a href="#">Join Now</a></button>
+						<a href="/register">Join Now</a>
 					</div>
 				</div>
 
 				<div className="memberOptions">
 					<h1>Membership Options</h1>
-					<table>
-						<thead>
-							<tr>Intro-Estate Club</tr>
-							<tr>Estate Club</tr>
-							<tr>Collector Club</tr>
-						</thead>
-						<tbody>
-							<td>Shipment</td>
-							<td>Discount</td>
-							<td>Price Per Shipment</td>
-							<td>Shipment Schedule</td>
-						</tbody>
-					</table>
+					<div className="clubTitle">
+						<p>Petite Club</p>
+						<p>Estate Club</p>
+						<p>Collector Club</p>
+					</div>
+					<div className="clubInfo">
+						<p>Shipment</p>
+						<p>Discount</p>
+						<p>Price Per Shipment</p>
+						<p>Shipment Schedule</p>
+					</div>
+					<div className="introEstate">
+						<p>2 bottles</p>
+						<p>15 off</p>
+						<p>80*</p>
+						<p>Febuary, May and November</p>
+						<div className="memberButton"><a href="/register">Join Now</a></div>
+					</div>
+					<div className="estate">
+						<p>4 bottles</p>
+						<p>20 off</p>
+						<p>180*</p>
+						<p>Febuary, May and November</p>
+						<div className="memberButton"><a href="/register">Join Now</a></div>
+					</div>
+					<div className="collector">
+						<p>6 bottles</p>
+						<p>25 off</p>
+						<p>280*</p>
+						<p>Febuary, May and November</p>
+						<div className="memberButton"><a href="/register">Join Now</a></div>
+					</div>
+					<h5>*Plus Tax and Shipping</h5>
 				</div>
 			</div>
 		)
 	}
-})
+}

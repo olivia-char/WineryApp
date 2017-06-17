@@ -1,4 +1,7 @@
-var Landing = React.createClass({
+class Landing extends React.Component {
+	constructor(props) {
+    	super(props);
+    }
 	render(){
 		return (
 			<div>
@@ -7,4 +10,5 @@ var Landing = React.createClass({
 			</div>
 		)
 	}
-});
+
+}

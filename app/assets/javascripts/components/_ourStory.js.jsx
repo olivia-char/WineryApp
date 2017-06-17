@@ -1,4 +1,7 @@
-var OurStory = React.createClass({
+class OurStory extends React.Component {
+	constructor(props) {
+    	super(props);
+    }
 	render(){
 		return (
 			<div>
@@ -7,4 +10,4 @@ var OurStory = React.createClass({
 			</div>
 		)
 	}
-});
+}

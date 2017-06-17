@@ -26,27 +26,20 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-#React.js library 
+
 gem 'react-rails', '~> 2.2'
-
 gem 'react-rails-img'
-
-#Node
-gem 'nodejs-rails', '~> 0.0.1'
-
-#Webpacker
-gem 'webpacker'
-
-#yarn
-gem 'yarn', '~> 0.1.1'
-
-#SASS
-gem 'sass', '~> 3.4', '>= 3.4.22'
-
-#Bootstrap
 gem 'react-bootstrap-rails', '~> 0.13.0'
 
+gem 'nodejs-rails', '~> 0.0.1'
 
+gem 'webpacker'
+
+gem 'yarn', '~> 0.1.1'
+
+gem 'spree', '~> 3.1.0.rc1'
+gem 'spree_auth_devise', '~> 3.1.0.rc1'
+gem 'spree_gateway', '~> 3.1.0.rc1'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

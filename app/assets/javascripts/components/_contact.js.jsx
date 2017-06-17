@@ -1,4 +1,4 @@
-var Contact = React.createClass({
+class Contact extends React.Component {
 	render(){
 		return (
 			<div>
@@ -7,4 +7,4 @@ var Contact = React.createClass({
 			</div>
 		)
 	}
-});
+}

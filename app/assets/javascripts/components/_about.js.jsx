@@ -1,12 +1,17 @@
 
 
-var About = React.createClass({
+class About extends React.Component {
+	constructor(props) {
+    	super(props);
+    }
+
 	render(){
 		return (
 			<div className="aboutBox">
 				<div className="ourStory">
 					<div className="introImg"></div>
 					<div className="aboutIntro">
+						<h1>Terre of <b>Glen Ellen</b></h1>
 						<p>Overwhelmed by its natural beauty and mesmerized by its stunning mountain and vineyard vistas, we settled in Glen Ellen&rsquo;s Sonoma Valley Appellation in 1998. Soon after, we planted our Glenét Vineyards on our flowing valley property with rich Terre, excellent for growing high-quality wines destined to be fully accentuated by the ideal climate of Sonoma Valley&rsquo;s Viticulture Area.</p>
 						<p>In 2002, we planted our first two vineyards, a <i>Pinot Gris</i> block and our own unique red blend designate <i>Glenét Mélange,</i> which is a mixture of 80% Cabernet Sauvignon (three varietals) and 5% each of Petit Verdot, Merlot, Cabernet Franc, and Syrah.</p>
 						<p>In 2016, we complimented our <i>Estate Pinot Gris</i> and <i>Glenét Mélange</i> varietals with a <i>Pinot Noir</i> whose fruit we source from neighboring vineyards, also within our Sonoma Valley Appellation.</p>
@@ -16,13 +21,13 @@ var About = React.createClass({
 					<div className="bio1">
 						<div className="bioPicJohn"></div>
 						<p>John Stalcup</p>
-						<p>Field Nurturer and Winemaker</p>
+						<h4>Field Nurturer &amp; Winemaker</h4>
 						<p> short bio or quote about winemaking and how much you love the area</p>
 					</div>
 					<div className="bio2">
 						<div className="bioPicJulia"></div>
 						<p>Julia McCarthy</p> 
-						<p>Chief Wine Aficionado</p>
+						<h4>Chief Wine Aficionado</h4>
 						<p>short bio or quote about being a winemaker and how much you love wine and blah</p>
 					</div>
 				</div>
@@ -41,4 +46,4 @@ var About = React.createClass({
 			</div>
 		)
 	}
-})
+}

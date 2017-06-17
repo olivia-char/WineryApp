@@ -1,4 +1,7 @@
-var Membership = React.createClass({
+class Membership extends React.Component {
+	constructor(props) {
+    	super(props);
+    }
 	render(){
 		return (
 			<div>
@@ -7,4 +10,4 @@ var Membership = React.createClass({
 			</div>
 		)
 	}
-});
+}
