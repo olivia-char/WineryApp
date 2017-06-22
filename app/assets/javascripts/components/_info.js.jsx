@@ -49,16 +49,15 @@ class Info extends React.Component {
 				<div className="contact">
 					<div className="contactImg"></div>
 					<div className="contactBox">
-						<h1 onClick={this.consoleLogSomething.bind(this,1,3)}>Contact Us</h1>
-						<p>Thank you for {this.state.yolo} seeking out our uniquely grown and designated small acreage production wines. For more information contact us at:</p>
+						<h1>Contact Us</h1>
+						<p>Thank you for seeking out our uniquely grown and designated small acreage production wines. For more information contact us at:</p>
 						<p>PHONE NUMBER GOES HERE</p>
 						<p>EMAIL GOES HERE</p>
 						<p>We look forward to meeting you!</p>
 					</div>
 				</div>
-				{this.renderABlackBox()}
 				<div className="mailingList">
-					<h1 onClick={this.changeState.bind(this)}>Stay Updated</h1>
+					<h1>Stay Updated</h1>
 					<p>Join our mailing list and hear about our upcoming releases, request an allocation, and attend private events.</p>
 					<a href="#">Sign Up</a>
 				</div>	
@@ -66,7 +65,7 @@ class Info extends React.Component {
 					<div className="airbnbBox">
 						<h1>Vist Glenét Vineyards</h1>
 						<p>Visit our Glenét Vineyards and stay with us in our secluded Airbnb (Cozy, Chic Suite in Sonoma Valley) and enjoy a slice of heaven.</p>
-						<a href="https://www.airbnb.com/rooms/5928098">Stay With Us</a>
+						<a href="https://www.airbnb.com/rooms/5928098" target="_blank">Stay With Us</a>
 					</div>
 					<div className="airbnbImg"></div>
 				</div>

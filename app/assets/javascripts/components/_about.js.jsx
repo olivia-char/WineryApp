@@ -22,23 +22,23 @@ class About extends React.Component {
 						<div className="bioPicJohn"></div>
 						<p>John Stalcup</p>
 						<h4>Field Nurturer &amp; Winemaker</h4>
-						<p> short bio or quote about winemaking and how much you love the area</p>
+						<p>He is out standing in his field!</p>
 					</div>
 					<div className="bio2">
 						<div className="bioPicJulia"></div>
 						<p>Julia McCarthy</p> 
 						<h4>Chief Wine Aficionado</h4>
-						<p>short bio or quote about being a winemaker and how much you love wine and blah</p>
+						<p>Behind every successful endeavor, there is always one smart person!</p>
 					</div>
 				</div>
 				<div className="ourWine">
 					<div className="ourWineImg"></div>
 					<div className="ourWineBox">
 						<h1>The Cultivation of <b>Glenét Vineyards</b></h1>
-						<p>We hand-craft each of our vintages to create the very best of what mother nature provides in this bucolic haven, capturing some of the best fruit from her earth and sunlight.</p>
+						<p>We handcraft each of our vintages to create the very best of what mother nature provides in this bucolic haven, capturing some of the best fruit from her earth and sunlight.</p>
 						<p>Our <i>Pinot Gris, Glenét Mélange, and Pinot Noir</i> wines are tended from &ldquo;Bud Break&rdquo; to &ldquo;Harvest,&rdquo; organically grown and carefully groomed to generate robust fruit with outstanding tastes and flavors, clearly setting our wines apart from the agri-winery productions.</p>
 						<p>To maintain this level of precision, our boutique wine case production results in just 25 to 100 cases per varietal per year. Though, it&rsquo;s just enough for our astute wine-loving Members.</p>
-						<p>We are certain you&rsquo;ll consider Glenét Vinyard wines to be some of the finest available from Sonoma Valley Appellation. It&rsquo;s our privilege to share the beauty of Sonoma Valley and our bounty of wonderful wines with you!</p>
+						<p>We are certain you&rsquo;ll consider Glenét Vineyard wines to be some of the finest available from Sonoma Valley Appellation. It&rsquo;s our privilege to share the beauty of Sonoma Valley and our bounty of wonderful wines with you!</p>
 						<p>Cheers!</p>
 					</div>
 

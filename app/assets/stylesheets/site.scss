@@ -100,7 +100,7 @@ h1 a {
 	font-size: 28px;
 }
 .quoteBox p {
-	font-size: 25px;
+	font-size: 24px;
 	margin: 0px 0px 0px 0px;
 	display: inline;
 }
@@ -175,14 +175,14 @@ h1 a {
 	font-size: 25px;
 }
 .sonoma {
-	font-size: 60px;
+	font-size: 50px;
 }
 
 .welcomeImg {
 	margin: 30px 0px 0px 40px;
 	display: inline-block;
-	width: 750px;
-	height: 600px;
+	width: 700px;
+	height: 572px;
 	background-image: url(IMG3_vineyards.jpg)
 }
 
@@ -241,10 +241,13 @@ h1 a {
 .wineIntro h3 {
 	font-family: Copperplate;
 }
-
 .wineIntro p {
+	font-size: 22px;
+}
+.wineDesc {
 	width: 45%;
-	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
 }
 .wine1 {
 	display: block;
@@ -258,6 +261,7 @@ h1 a {
 }
 .wine1 h3 {
 	margin: 0px 0px 0px 215px;
+	width: 300px;
 
 }
 .wine1 p {
@@ -270,9 +274,9 @@ h1 a {
 .grisImg {
 	display: inline-block;
 	width: 300px;
-	height: 450px;
-	background-color: blue;
-	margin: 0px 0px 0px 150px;
+	height: 525px;
+	background-image: url(pinotGris.jpg);
+	margin: 0px 0px 0px 75px;
 }
 .wine2 {
 	display: block;
@@ -283,27 +287,26 @@ h1 a {
 .wine2Box {
 	display: inline-block;
 	vertical-align: top;
-	width: 70%;
+	width: 58%;
 }
 .wine2 h1 {
 	vertical-align: top;
-	margin: 0px 0px 0px 160px;
 }
 
 .wine2 h3 {
-	margin: 0px 0px 0px 100px;
+	margin: 0px 0px 0px 75px;
 }
 
 .wine2 p {
-	margin: 30px 0px 0px 100px;
+	margin: 30px 0px 0px 75px;
 	width: 500px;
 }
 .melangeImg {
 	display: inline-block;
 	width: 300px;
-	height: 450px;
-	background-color: green;
-	margin: 100px 0px 0px 0px;
+	height: 525px;
+	background-image: url(glenetMelange.jpg);
+	margin: 100px 0px 0px 50px;
 }
 
 .wine3 {
@@ -330,9 +333,9 @@ h1 a {
 .noirImg {
 	display: inline-block;
 	width: 300px;
-	height: 450px;
-	background-color: purple;
-	margin: 0px 0px 30px 100px;
+	height: 525px;
+	background-image: url(pinoNoir.jpg);
+	margin: 0px 0px 30px 75px;
 }
 
 .link {
@@ -442,7 +445,7 @@ h1 a {
 .bioPicJohn {
 	height: 250px;
 	width: 250px;
-	background-color: green;
+	background-image: url(johnPhoto.jpg);
 	margin: 0px 0px 10px 35px;
 }
 .bio2 {
@@ -526,7 +529,7 @@ h1 a {
 	position: absolute;
 	margin: 25px 50px 0px 75px; 
 	width: 27%;
-	height: 1075px;
+	height: 850px;
 	opacity: 0.09;
 	padding: 50px;
 	background-color: black;
@@ -543,7 +546,7 @@ h1 a {
 	position: absolute;
 	margin: 25px 50px 0px 525px; 
 	width: 27%;
-	height: 1045px;
+	height: 760px;
 	opacity: 0.09;
 	padding: 50px;
 	background-color: black;
@@ -560,7 +563,7 @@ h1 a {
 	position: absolute;
 	margin: 25px 50px 0px 975px; 
 	width: 27%;
-	height: 910px;
+	height: 790px;
 	opacity: 0.09;
 	padding: 50px;
 	background-color: black;
@@ -574,15 +577,27 @@ h1 a {
 	font-family: Copperplate;
 	font-size: 20px;
 }
-.wineBottle {
+.wineBottle1 {
+	width: 50%;
+	background-image: url(glenetMelangeWinePage.jpg);
+	height: 320px;
+	margin: 0px 0px 0px 90px;
+}
+.wineBottle2 {
+	width: 50%;
+	background-image: url(pinotGrisWinePage.jpg);
+	height: 320px;
+	margin: 0px 0px 0px 90px;
+}
+.wineBottle3 {
 	width: 50%;
 	background-color: purple;
-	height: 300px;
+	height: 320px;
 	margin: 0px 0px 0px 90px;
 }
 .wineDescrip p {
 	font-size: 22px;
-	padding: 15px;
+	padding: 15px 15px 10px 15px;
 }
 .wineDescrip h4 {
 	font-family: Copperplate;
@@ -641,30 +656,30 @@ h1 a {
 .benefitsImg {
 	display: inline-block;
 	position: absolute;
-	margin: 0px 0px 0px 100px;
-	width: 350px;
-	height: 450px;
-	background-image: url(corkscrew.jpg);
+	margin: 25px 0px 0px 100px;
+	width: 500px;
+	height: 399px;
+	background-image: url(allWine.jpg);
 }
 .benefits {
 	background-image: url(rockywall.png);
 	display: inline-block;
-	margin: 75px 0px 0px 20px;
+	margin: 75px 0px 0px 0px;
 	width: 100%;
-	height: 450px;
+	height: 400px;
 }
 .benefits h1 {
 	font-family: DancingScript;
-	margin: 20px 0px 0px 475px;
+	margin: 20px 0px 0px 650px;
 	font-size: 40px;
 }
 .benefits ul {
-	margin: 20px 0px 20px 475px;
+	margin: 20px 0px 20px 650px;
 	font-size: 20px;
 	width: 50%;
 }
 .benefits a {
-	margin-left: 475px;
+	margin-left: 675px;
 	background-color: #5E548E;
 	padding: 10px 30px 10px 30px;
 	color: white;
@@ -709,12 +724,12 @@ h1 a {
 	border-right: none;
 }
 .clubInfo {
-	width: 300px;
+	width: 350px;
 	text-align: right;
 	display: inline-block;
 	font-size: 28px;
 	font-family: Copperplate;
-	margin: 10px 0px 0px 115px;
+	margin: 10px 0px 0px 65px;
 }
 .clubInfo p {
 	margin-bottom: 20px;
@@ -858,3 +873,37 @@ h1 a {
 }
 
 //End Contact
+//Register
+.register h2 {
+	font-family: DancingScript;
+	font-size: 40px;
+	margin: 20px 20px 20px 20px;
+}
+.register li {
+	margin: 0px 0px 0px 25px; 
+	font-size: 20px;
+	padding: 5px;
+}
+.membershipChoice {
+	background-image: url(rockywall.png);
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+	padding: 5px;
+
+}
+.membershipChoice1 {
+	background-image: url(rockywall.png);
+	width: 50%;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+	padding: 5px;
+
+}
+.membershipChoice first-child {
+	margin-top: 100px;
+}
+.register a {
+	margin-left: 75%;
+}
