@@ -25,7 +25,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'gibbon', '~> 3.0.2'
+gem 'dotenv-rails', groups: [:development, :test]
 
+
+gem 'spree', '~> 3.1.0.rc1'
+gem 'spree_auth_devise', '~> 3.1.0.rc1'
+gem 'spree_gateway', '~> 3.1.0.rc1'
+gem 'mailcatcher', '~> 0.6.1'
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 'master'
 
 gem 'react-rails', '~> 2.2'
 gem 'react-rails-img'
@@ -36,10 +44,6 @@ gem 'nodejs-rails', '~> 0.0.1'
 gem 'webpacker'
 
 gem 'yarn', '~> 0.1.1'
-
-gem 'spree', '~> 3.1.0.rc1'
-gem 'spree_auth_devise', '~> 3.1.0.rc1'
-gem 'spree_gateway', '~> 3.1.0.rc1'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -59,4 +63,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-

@@ -6,55 +6,44 @@
 	font-family: DancingScript;
 	src: url(DancingScript-Regular.otf)
 }
-
-body {
-	background-color:  #87B37A;
+.spreeBody {
+	background-color: #e3e3e8;;
 }
-
-.contact {
-	background-color: #87B37A;
-}
-
 // Header CSS
 
 .header {
-	height: 180px;
+	padding-bottom: 2%;
 	display: block;
-	background-color: #FCFAFA;
-	color: #333232;
+	background-color: #e3e3e8;
+	color: #454851;
 }
-
 .log {
-	margin: 10px 0px 25px 0px;
+	margin-bottom: 2%;
+	padding-top: 1%;
 	border-bottom: 1px solid silver;
 }
 
-.log p {
-	margin-left: 20px;
+.log a {
+	margin-left: 2%;
 	font-family: Copperplate;
 	display: inline-block;
+	color: #454851;
 }
-
-.log p:first-child {
+.log a:first-child {
 	margin-left: 90%;
 }
-
-.log p:hover {
+.log a:hover {
 	color: #5E548E;
 }
-
 .box1 {
-	margin: 0px 0px 0px 125px;
+	margin-left: 8%;
 	vertical-align: top;
 	display: inline-block;
 	width: 28%;
-	color: #454851;
 }
-
 .box1 a:first-child {
-	margin-right: 20px;
+	margin-right: 2%;
 }
-
 .box2 {
 	border-right: 1px solid #454851;
 	border-left: 1px solid #454851;
@@ -62,11 +51,11 @@ body {
 	width: 26%;
 	height: 110px;
 }
-
 .box2 h1 {
 	margin: 20px 0px 0px 28px;
 	font-size: 52px;
 	font-family: DancingScript;	
+
 }
 h1 a:link {
 	text-decoration: none;
@@ -75,9 +64,8 @@ h1 a:hover {
 	color:black;
 }
 h1 a {
-	color:black;
+	color:#454851;
 }
-
 .box3 {
 	color: #454851;
 	vertical-align: top;
@@ -85,7 +73,7 @@ h1 a {
 	width: 28%;
 }
 .box3 a:first-child {
-	margin-right: 20px;
+	margin-right: 2%;
 }
 .quoteBox {
 	vertical-align: top;
@@ -104,17 +92,14 @@ h1 a {
 	margin: 0px 0px 0px 0px;
 	display: inline;
 }
-
 .quoteBox h4 {
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 }
-
 .tab1 {
 	margin-top: 15px;
 	text-align: center;
 }
-
 .tab1 a {
 	text-decoration: none;
 	color: #454851;
@@ -134,7 +119,6 @@ h1 a {
 	margin-top: 15px;
 	text-align: center;
 }
-
 .tab2 a {
 	text-decoration: none;
 	color: #454851;
@@ -151,14 +135,15 @@ h1 a {
 // End Header
 //Landing Page
 .landing {
-	background-color: #FCFAFA;
+	background-color: #e3e3e8;
+	color: #454851;
 }
 .welcome {
 	font-family: DancingScript;
-	margin: 0px 0px 200px 0px;
 	width: 100%;
-	height: 550px;
-	background-image: url(rockywall.png);
+	height: 700px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0),
+  				rgba(227, 227, 232, 1)), url(rockywall.png);
 }
 .welcomeBox {
 	vertical-align: top;
@@ -177,13 +162,33 @@ h1 a {
 .sonoma {
 	font-size: 50px;
 }
-
+.welcomeIcon {
+	width: 250px;
+	height: 250px;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position:absolute;
+	margin: 400px 0px 0px -300px;
+}
+.welcomeIcon2 {
+	width: 150px;
+	height: 150px;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position:absolute;
+	margin: 50px 0px 0px -550px;
+}
 .welcomeImg {
 	margin: 30px 0px 0px 40px;
 	display: inline-block;
 	width: 700px;
 	height: 572px;
-	background-image: url(IMG3_vineyards.jpg)
+	background-image: url(IMG3_vineyards.jpg);
+	border: 2px solid #5E548E;
 }
 
 .glenetIntro {
@@ -198,6 +203,7 @@ h1 a {
 	height: 475px;
 	margin: 50px 0px 0px 50px;
 	background-image: url(IMG4_vineyard.jpg);
+	border: 2px solid #5E548E;
 }
 
 .glenetBox {
@@ -206,7 +212,8 @@ h1 a {
 	display: inline-block;
 	width:100%;
 	padding-bottom: 50px;
-	background-image: url(rockywall.png);
+	background: linear-gradient(to left, rgba(255,255,255,0),
+  				rgba(227, 227, 232, 1)), url(rockywall.png);
 }
 
 .glenetBox h1 {
@@ -229,9 +236,16 @@ h1 a {
 	color: white;
 	font-family: Copperplate;
 }
+.glenetBox a:hover {
+	color:white;
+	border: 1px solid #5E548E;
+}
 .wineIntro {
 	margin-bottom: 150px;
-	background-image: url(rockywall.png);
+	background-image: url(grapeVineColor.png), url(rockywall.png);
+	background-size: 50% 70%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 1000px 250px, 0px 0px; 
 }
 
 .wineIntro h1 {
@@ -277,11 +291,12 @@ h1 a {
 	height: 525px;
 	background-image: url(pinotGris.jpg);
 	margin: 0px 0px 0px 75px;
+	border: 2px solid #5E548E;
 }
 .wine2 {
 	display: block;
 	width: 75%;
-	margin: 0px 0px 100px 200px;
+	margin: 0px 0px 100px 50px;
 }
 
 .wine2Box {
@@ -307,12 +322,13 @@ h1 a {
 	height: 525px;
 	background-image: url(glenetMelange.jpg);
 	margin: 100px 0px 0px 50px;
+	border: 2px solid #5E548E;
 }
 
 .wine3 {
 	display: block;
 	width: 75%;
-	margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 150px;
 }
 
 .wine3 h1 {
@@ -334,8 +350,9 @@ h1 a {
 	display: inline-block;
 	width: 300px;
 	height: 525px;
-	background-image: url(pinoNoir.jpg);
+	background-image: url(pinotNoir.jpg);
 	margin: 0px 0px 30px 75px;
+	border: 2px solid #5E548E;
 }
 
 .link {
@@ -393,8 +410,13 @@ h1 a {
 //End Landing
 //Our Story CSS
 .aboutBox {
-	background-color: #FCFAFA;
-	color: #333232;
+	height: 100%;
+	background-image: url(branch.png);
+	background-size: 30% 30%;
+    background-repeat: no-repeat;
+    background-position: 25px 1030px; 
+    background-color: #e3e3e8;
+	color: #454851;
 }
 .aboutBox p {
 	padding-bottom: 20px;
@@ -405,15 +427,25 @@ h1 a {
 	font-family: DancingScript;
 	font-size: 40px;
 }
-.ourStory {
+.ourStoryIntro {
 	font-size: 20px;
 	margin-bottom: 125px;
 }
+.introIcon {
+	height: 300px;
+	width: 200px;
+	position: absolute;
+	background-image: url(smallLeaf.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin: 375px 0px 0px 1175px; 
+}
 .introImg {
 	background-image: url(IMG_1332.jpg);
-	width: 75%;
+	width: 70%;
 	height: 500px;
 	margin: 0px 0px 0px 175px;
+	border: 2px solid #5E548E;
 }
 
 .aboutIntro {
@@ -447,6 +479,7 @@ h1 a {
 	width: 250px;
 	background-image: url(johnPhoto.jpg);
 	margin: 0px 0px 10px 35px;
+	border: 2px solid #5E548E;
 }
 .bio2 {
 	width: 320px;
@@ -459,8 +492,9 @@ h1 a {
 .bioPicJulia {
 	height: 250px;
 	width: 250px;
-	background-color: green;
+	background-image: url(juliaPhoto.jpg);
 	margin: 0px 0px 10px 35px;
+	border: 2px solid #5E548E;
 }
 
 .ourWine {
@@ -491,14 +525,19 @@ h1 a {
 	width: 475px;
 	height: 530px;
 	margin: 0px 0px 0px 900px;
-	background-image: url(grapes_vineyard.jpeg)
+	background-image: url(grapes_vineyard.jpeg);
+	border: 2px solid #5E548E;
 }
 //End Our Story 
 //Wine Shop 
 
 .wineShop {
-	background-image: url(rockywall.png);
-	height: 1330px;
+	color: #454851;
+	background-image: url(grapeLeafBig.png), url(grapeLeafSmall.png),url(rockywall.png);
+	background-position: 750px 825px, 10px 35px, 0px 0px;
+	background-size: 20% 20%, 13% 13%, 100% 100%;
+    background-repeat: no-repeat;
+	height: 1000px;
 }
 .wineShop h3{
 	font-family: DancingScript;
@@ -510,6 +549,10 @@ h1 a {
 .wineShop p {
 	font-size: 12px;
 	padding: 20px;
+}
+.wineShop a:hover {
+	color:white;
+	border: 1px solid #5E548E;
 }
 .buyButton {
 	background-color: #5E548E;
@@ -529,10 +572,10 @@ h1 a {
 	position: absolute;
 	margin: 25px 50px 0px 75px; 
 	width: 27%;
-	height: 850px;
+	height: 760px;
 	opacity: 0.09;
 	padding: 50px;
-	background-color: black;
+	background-color: #8f8fa3;
 }
 .wineBox2 {
 	position: absolute;
@@ -546,10 +589,10 @@ h1 a {
 	position: absolute;
 	margin: 25px 50px 0px 525px; 
 	width: 27%;
-	height: 760px;
+	height: 730px;
 	opacity: 0.09;
 	padding: 50px;
-	background-color: black;
+	background-color: #8f8fa3;
 }
 .wineBox3 {
 	position: absolute;
@@ -563,10 +606,10 @@ h1 a {
 	position: absolute;
 	margin: 25px 50px 0px 975px; 
 	width: 27%;
-	height: 790px;
+	height: 760px;
 	opacity: 0.09;
 	padding: 50px;
-	background-color: black;
+	background-color: #8f8fa3;
 }
 .wineTitle h4 {
 	font-family: Copperplate;
@@ -582,18 +625,21 @@ h1 a {
 	background-image: url(glenetMelangeWinePage.jpg);
 	height: 320px;
 	margin: 0px 0px 0px 90px;
+	border: 2px solid #5E548E;
 }
 .wineBottle2 {
 	width: 50%;
 	background-image: url(pinotGrisWinePage.jpg);
 	height: 320px;
 	margin: 0px 0px 0px 90px;
+	border: 2px solid #5E548E;
 }
 .wineBottle3 {
 	width: 50%;
-	background-color: purple;
+	background-image: url(pinotNoirWinePage.jpg);
 	height: 320px;
 	margin: 0px 0px 0px 90px;
+	border: 2px solid #5E548E;
 }
 .wineDescrip p {
 	font-size: 22px;
@@ -607,18 +653,17 @@ h1 a {
 //End Wine Shop
 // Membership
 .membership {
-	background-color: #FCFAFA;
+	background-color: #e3e3e8;
+	color: #454851;
 }
-.newMember {
-	margin-bottom: 200px;
+.newMemberIntro {
+	margin-bottom: 150px;
 }
-
 .newMemberBox {
 	background-image: url(rockywall.png);
-	height: 500px;
+	height: 550px;
 	text-align: right;
 }
-
 .newMemberBox h1 {
 	margin: 0px 0px 20px 140px;
 	width: 45%;
@@ -626,8 +671,6 @@ h1 a {
 	font-family: DancingScript;
 	font-size: 48px;
 }
-
-
 .newMemberBox p {
 	font-size: 20px;
 	width: 40%;
@@ -641,28 +684,39 @@ h1 a {
 	font-size: 12px;
 	margin: 10px 0px 0px 465px;
 }
+.joinBox a:hover {
+	color:white;
+	border: 1px solid #5E548E;
+}
+.newMemberIcon {
+	height: 500px;
+	width: 440px;
+	background-image: url(flowerBranch2.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:absolute; 
+    margin: -350px 0px 0px 125px;
+}
 .newMemberImg {
 	position:absolute;
 	width: 400px;
 	height: 600px;
 	margin: 0px 0px 0px 825px;
 	background-image: url(wine_member.jpg);
+	border: 2px solid #5E548E;
 }
-
-.memberBenefits {
-	margin-bottom: 100px;
-}
-
 .benefitsImg {
 	display: inline-block;
 	position: absolute;
-	margin: 25px 0px 0px 100px;
+	margin: 25px 0px 0px 75px;
 	width: 500px;
-	height: 399px;
+	height: 375px;
 	background-image: url(allWine.jpg);
+	border: 2px solid #5E548E;
 }
 .benefits {
-	background-image: url(rockywall.png);
+	background: linear-gradient(to right, rgba(255,255,255,0),
+  				rgba(227, 227, 232, 1)), url(rockywall.png);
 	display: inline-block;
 	margin: 75px 0px 0px 0px;
 	width: 100%;
@@ -670,29 +724,54 @@ h1 a {
 }
 .benefits h1 {
 	font-family: DancingScript;
-	margin: 20px 0px 0px 650px;
+	margin: 20px 0px 0px 640px;
 	font-size: 40px;
 }
 .benefits ul {
-	margin: 20px 0px 20px 650px;
+	margin: 20px 0px 20px 640px;
 	font-size: 20px;
 	width: 50%;
 }
 .benefits a {
-	margin-left: 675px;
+	margin-left: 660px;
 	background-color: #5E548E;
 	padding: 10px 30px 10px 30px;
 	color: white;
 	font-family: Copperplate;
 }
-
+.benefits a:hover {
+	color:white;
+	border: 1px solid #5E548E;
+}
+.benefitsIcon {
+	height: 300px;
+	width: 300px;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:absolute; 
+    margin: -200px 0px 0px 950px;
+}
 .memberOptions {
 	padding-bottom: 100px;
+	height: 100%;
+    color:#5E548E;
+}
+.membershipOptionsIcon {
+	height: 350px;
+	width: 350px;
+	background-image: url(grapeVineLeafColor.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:absolute; 
+    margin: -175px 0px 0px -20px;
 }
 .memberOptions h1 {
 	font-family: DancingScript;
 	font-size: 40px;
-	margin: 0px 0px 25px 125px; 
+	margin: 0px 0px 50px 200px; 
+	padding-top: 100px;
+	color: #454851;
 }
 .memberOptions h5 {
 	margin: 20px 0px 0px 475px;
@@ -707,6 +786,10 @@ h1 a {
 	color: white;
 	font-family: Copperplate;
 }
+.memberButton a:hover {
+	color:white;
+	border: 1px solid #5E548E;
+}
 .clubTitle {
 	margin-left: 475px;
 }
@@ -716,7 +799,7 @@ h1 a {
 	margin-bottom: 0px;
 	padding: 10px 0px 25px 0px;
 	text-align: center;
-	border-right: 1px solid black;
+	border-right: 1px solid #454851;
 	font-size: 28px;
 	font-family: Copperplate;
 }
@@ -740,12 +823,12 @@ h1 a {
 	vertical-align: top;
 	width: 270px;
 	margin: 0px 0px 0px 60px;
-	border-right: 1px solid black;
-	border-top: 1px solid black;
+	border-right: 1px solid #454851;
+	border-top: 1px solid #454851;
 }
 .introEstate p {
 	text-align: center;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #454851;
 	padding: 15px 10px 15px 10px;
 	margin-bottom: 0px;
 }
@@ -758,12 +841,12 @@ h1 a {
 	vertical-align: top;
 	width: 270px;
 	margin: 0px 0px 0px 0px;
-	border-right: 1px solid black;
-	border-top: 1px solid black;
+	border-right: 1px solid #454851;
+	border-top: 1px solid #454851;
 }
 .estate p {
 	text-align: center;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #454851;
 	padding: 15px 10px 15px 10px;
 	margin-bottom: 0px;
 }
@@ -776,11 +859,11 @@ h1 a {
 	vertical-align: top;
 	width: 270px;
 	margin: 0px 0px 0px 0px;
-	border-top: 1px solid black;
+	border-top: 1px solid #454851;
 }
 .collector p {
 	text-align: center;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #454851;
 	padding: 15px 10px 15px 10px;
 	margin-bottom: 0px;
 }
@@ -791,11 +874,13 @@ h1 a {
 
 //Contact Page
 .joinUs {
-	background-color: #FCFAFA;
+	background-color: #e3e3e8;
+	height: 1200px; 
 }
 .contactBox {
-	background-image: url(rockywall.png);
-	height: 400px;
+	height: 375px;
+	background: linear-gradient(to right, rgba(255,255,255,0),
+  				rgba(227, 227, 232, 1)), url(rockywall.png);
 }
 .contactBox h1 {
 	font-size: 40px;
@@ -805,7 +890,7 @@ h1 a {
 }
 .contactBox p {
 	font-size: 20px;
-	width: 50%;
+	width: 33%;
 	display: inline-block;
 	margin: 0px 0px 20px 550px;
 }
@@ -817,21 +902,29 @@ h1 a {
 	margin: 0px 0px 0px 130px;
 	background-image: url(wine_tasting.jpg);
 }
+.contactIcon {
+	height: 900px;
+	width: 575px;
+	background-image: url(flowerBranch.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -175px 825px;
+    position: absolute;
+}
 .mailingList {
-	width: 50%;
-	margin: 265px 0px 175px 360px;
-	padding-bottom: 50px;
+	width: 40%;
+	margin: 250px 0px 150px 175px;
+	padding: 0px 20px 25px 50px;
 	background-image: url(rockywall.png);
-	text-align: center;
 }
 .mailingList h1 {
-	padding: 30px 0px 20px 0px;
+	padding: 30px 0px 20px 10px;
 	font-size: 40px;
 	font-family: DancingScript;
 }
 .mailingList p {
 	font-size: 20px;
-	padding-bottom: 25px;
+	padding: 0px 0px 10px 10px;
 }
 .mailingList a {
 	background-color: #5E548E;
@@ -840,12 +933,13 @@ h1 a {
 	font-family: Copperplate;
 }
 .airbnb {
-	background-image: url(rockywall.png);
+	background: linear-gradient(to bottom, rgba(255,255,255,0),
+  				rgba(227, 227, 232, 1)), url(rockywall.png);
 }
 .airbnbBox {
 	display: inline-block;
 	width: 40%;
-	height: 350px;
+	height: 525px;
 	text-align: right;
 	margin: 0px 50px 0px 100px;
 }
@@ -863,40 +957,60 @@ h1 a {
 	color: white;
 	font-family: Copperplate;
 }
+.airbnbBox a:hover {
+	color:white;
+	border: 1px solid #5E548E;
+}
 .airbnbImg {
 	position: absolute;
 	display: inline-block;
 	height: 430px;
 	width: 620px;
 	background-image: url(IMG_airbnb.jpg);
-	margin-bottom: 100px;
 }
 
 //End Contact
 //Register
+.register {
+	padding: 20px;
+	background-color: #e3e3e8;
+	background-image: url(grapeVineColor.png);
+	background-size: 35% 100%;
+    background-repeat: no-repeat;
+    background-position: 50px 0px; 
+    color: #454851;
+}
 .register h2 {
 	font-family: DancingScript;
 	font-size: 40px;
 	margin: 20px 20px 20px 20px;
+	color: #5E548E;
 }
 .register li {
 	margin: 0px 0px 0px 25px; 
 	font-size: 20px;
 	padding: 5px;
 }
-.membershipChoice {
+.membershipChoice1 {
 	background-image: url(rockywall.png);
 	width: 50%;
-	margin-left: 25%;
+	margin-left: 40%;
 	margin-bottom: 5%;
 	padding: 5px;
 
 }
-.membershipChoice1 {
+.membershipChoice2 {
 	background-image: url(rockywall.png);
 	width: 50%;
-	margin-top: 5%;
-	margin-left: 25%;
+	margin-left: 40%;
+	margin-bottom: 5%;
+	padding: 5px;
+
+}
+.membershipChoice3 {
+	background-image: url(rockywall.png);
+	width: 50%;
+	margin-left: 40%;
 	margin-bottom: 5%;
 	padding: 5px;
 
@@ -906,4 +1020,8 @@ h1 a {
 }
 .register a {
 	margin-left: 75%;
+}
+.register a:hover {
+	color:white;
+	border: 1px solid #5E548E;
 }

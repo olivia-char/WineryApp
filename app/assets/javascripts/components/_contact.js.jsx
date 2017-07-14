@@ -3,7 +3,12 @@ class Contact extends React.Component {
 		return (
 			<div>
 				<Header />
-				<Info />
+				<Info
+					authenticity_token={this.props.authenticity_token}
+					apiScheme={this.props.apiScheme}
+					apiRoot={this.props.apiRoot}
+					apiPort={this.props.apiPort}
+				/>
 			</div>
 		)
 	}

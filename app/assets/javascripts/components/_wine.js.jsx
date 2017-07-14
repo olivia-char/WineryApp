@@ -14,11 +14,11 @@ class Wine extends React.Component {
 					</div>
 					<div className="wineBottle1"></div>
 					<div className="wineDescrip">
-						<p>Glenét Vineyards signature Estate Glenét Mélange, combines the fruits of seven varietals and produces a wine that is as rich, bright and flavorful as the vines, soil and sun from whence it comes. Uniquely superb. </p> 	
+						<p>Our signature Estate &ldquo;Glenét Mélange&rdquo; combines the fruits of seven grapes as flavorful as the vines, soil and sun from whence they come. </p> 	
 						<h4>&#36;90</h4>
 					</div>
-					<p>Wine Club Members, <a href="#">login</a> to access your discount. Not a member? <a href="/register">Join Now.</a></p>
-					<a href="/shop" className="buyButton">Buy Now</a>
+					<p>Wine Club Members, <a href="/shop/user/spree_user/sign_in">login</a> to access your discount. Not a member? <a href="/register">Join Now.</a></p>
+					<a href="/register" className="buyButton">Buy Now</a>
 				</div>
 				<div className="wineBox2Background"></div>
 				<div className="wineBox2">
@@ -28,11 +28,11 @@ class Wine extends React.Component {
 					</div>
 					<div className="wineBottle2"></div>
 					<div className="wineDescrip">
-						<p>This is our refreshing Pinot Gris &ldquo;Sonoma Citrus Expression&rdquo; with scents of lime and mint that quench a warm summer afternoon.</p>
+						<p>This is our Pinot Gris &ldquo;Sonoma Citrus Expression&rdquo; with scents of lime and mint that quench your thirst night or day.</p>
 						<h4>&#36;45</h4>
 					</div>
-					<p>Wine Club Members, <a href="#">login</a> to access your discount. Not a member? <a href="/register">Join Now.</a></p>
-					<a href="/shop" className="buyButton">Buy Now</a>
+					<p>Wine Club Members, <a href="/shop/user/spree_user/sign_in">login</a> to access your discount. Not a member? <a href="/register">Join Now.</a></p>
+					<a href="/register" className="buyButton">Buy Now</a>
 				</div>
 				<div className="wineBox3Background"></div>
 				<div className="wineBox3">
@@ -42,11 +42,11 @@ class Wine extends React.Component {
 					</div>
 					<div className="wineBottle3"></div>
 					<div className="wineDescrip">
-						<p>This is our &ldquo;Passionate Pinot&rdquo; that challenges the Best of Class with an explosion of berries and pepper, leaving a lingering lust for more.  One of our finest vintages ever!</p>
+						<p>This is our &ldquo;Passionate Pinot&rdquo; that challenges the Best of Class with an explosion of berries and pepper, leaving a lingering lust for more.</p>
 						<h4>&#36;70</h4>
 					</div>
-					<p>Wine Club Members, <a href="#">login</a> to access your discount. Not a member? <a href="/register">Join Now.</a></p>
-					<a href="/shop" className="buyButton">Buy Now</a>
+					<p>Wine Club Members, <a href="/shop/user/spree_user/sign_in">login</a> to access your discount. Not a member? <a href="/register">Join Now.</a></p>
+					<a href="/register" className="buyButton">Buy Now</a>
 				</div>
 			</div>
 		)
