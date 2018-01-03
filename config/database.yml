@@ -80,4 +80,5 @@ test:
 #
 production:
   <<: *default
-  database: WineryApp_development
+  adapter: sqlite3
+  database: db/development.sqlite3
