@@ -7,34 +7,19 @@
 	src: url(DancingScript-Regular.otf)
 }
 .spreeBody {
-	background-color: #e3e3e8;;
+	background-color: #EFF2EF;
 }
 // Header CSS
 
 .header {
-	padding-bottom: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	display: block;
-	background-color: #e3e3e8;
-	color: #454851;
-}
-.log {
-	margin-bottom: 2%;
-	padding-top: 1%;
-	border-bottom: 1px solid silver;
+	background-color: #EFF2EF;
+	background-image: url(greyzz.png);
+	color: #232C33;
 }
 
-.log a {
-	margin-left: 2%;
-	font-family: Copperplate;
-	display: inline-block;
-	color: #454851;
-}
-.log a:first-child {
-	margin-left: 90%;
-}
-.log a:hover {
-	color: #5E548E;
-}
 .box1 {
 	margin-left: 8%;
 	vertical-align: top;
@@ -45,16 +30,16 @@
 	margin-right: 2%;
 }
 .box2 {
-	border-right: 1px solid #454851;
-	border-left: 1px solid #454851;
+	border-right: 1px solid #AEB1AE;
+	border-left: 1px solid #AEB1AE;
 	display: inline-block;
 	width: 26%;
-	height: 110px;
+	text-align: center;
+	padding-bottom: 1%;
 }
 .box2 h1 {
-	margin: 20px 0px 0px 28px;
 	font-size: 52px;
-	font-family: DancingScript;	
+	font-family: DancingScript;
 
 }
 h1 a:link {
@@ -64,10 +49,10 @@ h1 a:hover {
 	color:black;
 }
 h1 a {
-	color:#454851;
+	color:#232C33;
 }
 .box3 {
-	color: #454851;
+	color: #232C33;
 	vertical-align: top;
 	display: inline-block;
 	width: 28%;
@@ -75,81 +60,99 @@ h1 a {
 .box3 a:first-child {
 	margin-right: 2%;
 }
+
+.titleBox {
+	text-align: center;
+}
+.titleBox h1{
+	font-size: 52px;
+	font-family: DancingScript;
+}
+h1 a:link {
+	text-decoration: none;
+}
+h1 a:hover {
+	color:black;
+}
+h1 a {
+	color:#232C33;
+}
 .quoteBox {
 	vertical-align: top;
-	border-bottom: 1px solid #454851;
+	border-bottom: 1px solid #AEB1AE;
 	text-align: center;
-	padding-bottom: 5px;
+	padding-bottom: 1%;
 	font-family: DancingScript;
 }
 .quoteBox h2 {
-	margin: 0px 0px 0px 0px;
 	display: inline;
 	font-size: 28px;
 }
 .quoteBox p {
 	font-size: 24px;
-	margin: 0px 0px 0px 0px;
 	display: inline;
+	padding: 0% 1%;
 }
 .quoteBox h4 {
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 }
 .tab1 {
-	margin-top: 15px;
+	margin-top: 3%;
 	text-align: center;
+
 }
 .tab1 a {
 	text-decoration: none;
-	color: #454851;
+	color: #232C33;
 	font-family: Copperplate;
 	font-size: 20px;
 }
 .tab1 a:first-child {
-	margin-right: 45px;
-}
-.tab1 a:last-child {
-	margin-right: 25px;
+	margin-right: 10%;
 }
 .tab1 a:hover {
-	color: #5E548E;
+	color:#6C6EA0;
+	text-decoration: none;
 }
 .tab2 {
-	margin-top: 15px;
+	margin-top: 3%;
 	text-align: center;
 }
 .tab2 a {
 	text-decoration: none;
-	color: #454851;
+	color: #232C33;
 	font-family: Copperplate;
 	font-size: 20px;
 }
 .tab2 a:first-child {
-	margin: 0px 45px 0px 20px;
+	margin: 0% 10% 0% 3%;
 }
 .tab2 a:hover {
-	color: #5E548E;
+	color: #6C6EA0;
+	text-decoration: none;
 }
 
 // End Header
 //Landing Page
 .landing {
-	background-color: #e3e3e8;
-	color: #454851;
+	background-color: #EFF2EF;
+	color: #232C33;
+	font-family: CopperPlate;
 }
 .welcome {
+	border-top: 2px solid #e6e6e6;
 	font-family: DancingScript;
 	width: 100%;
-	height: 700px;
-	background: linear-gradient(to bottom, rgba(255,255,255,0),
-  				rgba(227, 227, 232, 1)), url(rockywall.png);
+	padding-bottom: 8%;
+	background: linear-gradient(to bottom, rgba(239,242,239,0),
+  				rgba(239,242,239, 1)), url(rockywall.png);
 }
 .welcomeBox {
 	vertical-align: top;
-	margin: 200px 0px 0px 100px;
+	margin: 13% 0% 15% 8%;
 	display: inline-block;
-	width: 35%;	
+	width: 35%;
 	text-align: center;
 }
 .welcome h1 {
@@ -163,97 +166,216 @@ h1 a {
 	font-size: 50px;
 }
 .welcomeIcon {
-	width: 250px;
-	height: 250px;
+	width: 16%;
+	height: 20%;
 	background-image: url(grapeLeafBig.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	position:absolute;
-	margin: 400px 0px 0px -300px;
+	margin: 27% 0% 0% -18%;
+}
+.welcomeIcon:hover {
+	width: 17%;
+	height: 21%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position:absolute;
+	margin: 27% 0% 0% -18%;
 }
 .welcomeIcon2 {
-	width: 150px;
-	height: 150px;
+	width: 10%;
+	height: 16%;
 	background-image: url(grapeLeafSmall.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	position:absolute;
-	margin: 50px 0px 0px -550px;
+	margin: 3% 0% 0% -35%;
+}
+.welcomeIcon2:hover {
+	width: 11%;
+	height: 17%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position:absolute;
+	margin: 3% 0% 0% -35%;
 }
 .welcomeImg {
-	margin: 30px 0px 0px 40px;
+	margin: 5% 0% 0% 5%;
 	display: inline-block;
-	width: 700px;
-	height: 572px;
+	width: 45%;
+	padding: 15%;
+	background-size: cover;
 	background-image: url(IMG3_vineyards.jpg);
-	border: 2px solid #5E548E;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 
 .glenetIntro {
-	margin-bottom: 150px;
+	margin-top: 2%;
+	border-bottom: 2px solid #e6e6e6;
 	width: 100%;
+	background: linear-gradient(to top, rgba(239,242,239,0),
+  				rgba(239,242,239, 1)), url(rockywall.png);
 }
 
 .glenetImg {
 	position: absolute;
 	display: inline-block;
-	width: 600px;
-	height: 475px;
-	margin: 50px 0px 0px 50px;
+	width: 40%;
+	padding: 15%;
 	background-image: url(IMG4_vineyard.jpg);
-	border: 2px solid #5E548E;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 2px #AEB1AE;
+	margin-left: 3%;
 }
-
 .glenetBox {
-	margin-top: 100px;
 	vertical-align: top;
 	display: inline-block;
-	width:100%;
-	padding-bottom: 50px;
-	background: linear-gradient(to left, rgba(255,255,255,0),
-  				rgba(227, 227, 232, 1)), url(rockywall.png);
+	width: 100%;
+	padding: 2%;
 }
 
 .glenetBox h1 {
-	margin: 75px 0px 20px 700px;
 	font-family: DancingScript;
 	width: 50%;
+	margin-left: 50%;
+	margin-bottom: 3%
 }
 
 .glenetBox p {
-	margin: 0px 0px 0px 700px;
 	font-size: 20px;
-	width: 45%;
-	padding: 10px 10px 20px 10px;
+	padding: 0% 5% 1% 0%;
+	width: 50%;
+	margin-left: 50%;
 }
-
 .glenetBox a {
-	margin: 0px 0px 20px 711px;
-	background-color: #5E548E;
+	margin: 0% 0% 0% 50%;
+	background-color: #6C6EA0;
 	padding: 10px 30px 10px 30px;
 	color: white;
 	font-family: Copperplate;
 }
 .glenetBox a:hover {
 	color:white;
-	border: 1px solid #5E548E;
+	border: 1px solid #6C6EA0;
+	text-decoration: none;
+}
+.quoteSection {
+	text-align: center;
+	font-family: DancingScript;
+	padding: 6% 0% 6% 0%;
+	width: 70%;
+	margin-left: 15%;
 }
 .wineIntro {
-	margin-bottom: 150px;
-	background-image: url(grapeVineColor.png), url(rockywall.png);
-	background-size: 50% 70%, 100% 100%;
-    background-repeat: no-repeat;
-    background-position: 1000px 250px, 0px 0px; 
+	margin-bottom: 10%;
+	background-image: url(rockywall.png);
+	border-top: 2px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
 }
-
+.wineIcon {
+	position:absolute;
+	background-image: url(grapeLeafSmall.png);
+	height: 14%;
+	width: 10%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 5% 0% 0% 8%;
+}
+.wineIcon:hover {
+	position:absolute;
+	background-image: url(grapeLeafSmall.png);
+	height: 15%;
+	width: 11%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 5% 0% 0% 8%;
+}
+.wineIcon2 {
+	position:absolute;
+	background-image: url(grapeLeafBig.png);
+	height: 17%;
+	width: 12%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 43% 0% 0% 16%;
+}
+.wineIcon2:hover {
+	position:absolute;
+	background-image: url(grapeLeafBig.png);
+	height: 18%;
+	width: 13%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 43% 0% 0% 16%;
+}
+.wineIcon3 {
+	position:absolute;
+	background-image: url(grapeLeafBig.png);
+	height: 12%;
+	width: 9%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 5% 0% 0% 80%;
+}
+.wineIcon3:hover {
+	position:absolute;
+	background-image: url(grapeLeafBig.png);
+	height: 13%;
+	width: 10%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 5% 0% 0% 80%;
+}
+.wineIcon4 {
+	position:absolute;
+	background-image: url(grapeLeafSmall.png);
+	height: 16%;
+	width: 12%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: -12% 0% 0% 65%;
+}
+.wineIcon4:hover {
+	position:absolute;
+	background-image: url(grapeLeafSmall.png);
+	height: 17%;
+	width: 13%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: -12% 0% 0% 65%;
+}
+.wineIcon5 {
+	position:absolute;
+	background-image: url(grapeLeafBig.png);
+	height: 18%;
+	width: 12%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: -20% 0% 0% 5%;
+}
+.wineIcon5:hover {
+	position:absolute;
+	background-image: url(grapeLeafBig.png);
+	height: 19%;
+	width: 13%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: -20% 0% 0% 5%;
+}
 .wineIntro h1 {
-	font-family: Copperplate;
 	font-size: 60px;
 }
 .wineIntro h3 {
-	font-family: Copperplate;
+	font-family: DancingScript;
+	font-size: 30px;
 }
 .wineIntro p {
 	font-size: 22px;
@@ -266,143 +388,158 @@ h1 a {
 .wine1 {
 	display: block;
 	width: 75%;
-	margin: 0px 0px 100px 200px;
+	margin: 0% 0% 10% 25%;
+	padding-top: 5%;
 }
 
 .wine1 h1 {
-	padding-top: 20px;
-	margin: 0px 0px 0px 275px;
+	margin: 0% 0% 0% 25%;
 }
 .wine1 h3 {
-	margin: 0px 0px 0px 215px;
-	width: 300px;
-
+	margin: 0% 0% 0% 23%;
 }
 .wine1 p {
 	display: inline-block;
 	vertical-align: top;
-	margin: 30px 0px 0px 0px;
+	margin: 5% 0% 0% 0%;
 	text-align: right;
 }
 
 .grisImg {
 	display: inline-block;
-	width: 300px;
-	height: 525px;
+	width: 30%;
+	height: 500px;
 	background-image: url(pinotGris.jpg);
-	margin: 0px 0px 0px 75px;
-	border: 2px solid #5E548E;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 5%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .wine2 {
-	display: block;
+	display: inline-block;
 	width: 75%;
-	margin: 0px 0px 100px 50px;
+	margin: 0% 0% 10% 15%;
 }
 
-.wine2Box {
-	display: inline-block;
-	vertical-align: top;
-	width: 58%;
-}
 .wine2 h1 {
-	vertical-align: top;
+	margin: 0% 0% 0% 25%;
 }
 
 .wine2 h3 {
-	margin: 0px 0px 0px 75px;
+	margin: 0% 0% 0% 5%;
+	display: inline-block;
+	vertical-align: top;
 }
 
-.wine2 p {
-	margin: 30px 0px 0px 75px;
-	width: 500px;
+.wineDesc2 {
+	margin: 5% 0% 0% -22%;
+	vertical-align: top;
+	display: inline-block;
+	width: 45%;
+}
+.wine2 p:last-child {
+	margin: 5% 0% 0% 0%;
 }
 .melangeImg {
 	display: inline-block;
-	width: 300px;
-	height: 525px;
+	width: 30%;
+	height: 500px;
 	background-image: url(glenetMelange.jpg);
-	margin: 100px 0px 0px 50px;
-	border: 2px solid #5E548E;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 2%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 
 .wine3 {
 	display: block;
 	width: 75%;
-	margin: 0px 0px 0px 150px;
+	margin: 0% 0% 0% 25%;
+	padding-bottom: 5%;
 }
 
 .wine3 h1 {
-	margin: 0px 0px 0px 250px;
+	margin: 0% 0% 0% 25%;
 }
 
 .wine3 h3 {
-	margin: 0px 0px 0px 190px;
+	margin: 0% 0% 0% 18%;
 }
 
 .wine3 p {
 	display: inline-block;
 	vertical-align: top;
 	text-align: right;
-	margin: 30px 0px 0px 25px;
+	margin: 5% 0% 0% 0%;
 }
 
 .noirImg {
 	display: inline-block;
-	width: 300px;
-	height: 525px;
+	width: 30%;
+	height: 500px;
 	background-image: url(pinotNoir.jpg);
-	margin: 0px 0px 30px 75px;
-	border: 2px solid #5E548E;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0% 0% 0% 5%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
-
+.navLink {
+	width: 100%;
+}
+.link:first-child {
+	margin-left: 12%;
+}
 .link {
+	font-size: 20px;
 	display: inline-block;
-	width: 250px;
+	width: 25%;
 	text-align: center;
 	vertical-align: top;
-	margin: 0px 150px 100px 0px;
-	font-size: 20px;
-}
-
-.link:first-child {
-	margin-left: 190px;
+	padding:0% 5% 5% 5%;
 }
 
 .link a {
 	text-decoration: none;
-	color: black;
+	color: #232C33;
 }
 .link a:hover {
-	color: #5E548E;
+	color: #6C6EA0;
+	text-decoration: none;
+	font-size: 22px;
 }
 
 .link h3 {
-	margin-bottom: 30px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid black;
+	margin-bottom: 10%;
+	padding-bottom: 8%;
+	border-bottom: 1px solid #AEB1AE;
 	font-family: DancingScript;
 	font-size: 30px;
 }
-
+.link h3:hover {
+	font-size: 33px;
+}
 .link p {
-	margin-top: 30px;
+	padding: 7% 2% 2% 2%;
+	margin-top: 8%;
+	border-top: 1px solid #AEB1AE;
 }
 .wineLinkImg {
-	margin-left: 50px;
+margin-left: 15%;
+	text-align: center;
 	height: 150px;
 	width: 150px;
 	background-image: url(wine.svg);
 }
 
 .memberLinkImg {
-	margin-left: 50px;
+margin-left: 15%;
 	height: 150px;
 	width: 150px;
 	background-image: url(wine_bottle.svg);
 }
 
 .contactLinkImg {
-	margin-left: 50px;
+	margin-left: 15%;
 	height: 150px;
 	width: 150px;
 	background-image: url(ornament.svg);
@@ -410,55 +547,65 @@ h1 a {
 //End Landing
 //Our Story CSS
 .aboutBox {
+	font-family: CopperPlate;
 	height: 100%;
-	background-image: url(branch.png);
-	background-size: 30% 30%;
-    background-repeat: no-repeat;
-    background-position: 25px 1030px; 
-    background-color: #e3e3e8;
-	color: #454851;
+  background-color: #EFF2EF;
+	color: #232C33;
+	background-image: url(grapeVineBottom.png);
+	background-size: 25% 22%;
+	background-repeat: no-repeat;
+	background-position: 12% 60%;
 }
 .aboutBox p {
-	padding-bottom: 20px;
+	padding-bottom: 3%;
 }
 .aboutBox h1 {
-	padding: 30px 0px 20px 0px;
-	padding-top: 30px;
+	padding: 5% 0% 2% 0%;
 	font-family: DancingScript;
 	font-size: 40px;
 }
 .ourStoryIntro {
 	font-size: 20px;
-	margin-bottom: 125px;
+	margin-bottom: 10%;
+	border-top: 2px solid #e6e6e6;
+	background: linear-gradient(to bottom, rgba(239,242,239,0),
+  				rgba(239,242,239, 1)), url(rockywall.png);
 }
 .introIcon {
-	height: 300px;
-	width: 200px;
+	height: 25%;
+	width: 18%;
 	position: absolute;
-	background-image: url(smallLeaf.png);
-	background-size: 100% 100%;
+	background-image: url(grapeVineTop.png);
+	background-size: cover;
     background-repeat: no-repeat;
-	margin: 375px 0px 0px 1175px; 
+	margin: 42% 0% 0% 64%;
 }
 .introImg {
 	background-image: url(IMG_1332.jpg);
-	width: 70%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 74%;
 	height: 500px;
-	margin: 0px 0px 0px 175px;
-	border: 2px solid #5E548E;
+	margin: 3% 0% 0% 13%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 
 .aboutIntro {
 	background-image: url(rockywall.png);
-	width: 75%;
-	margin: 20px 0px 0px 175px;
+	width: 60%;
+	margin: 8% 0% 0% 20%;
 	text-align: center;
 	padding: 0px 50px 50px 50px;
+	border: 2px solid #e6e6e6;
+}
+.aboutIntro p {
+	padding: 2% 6% 0% 6%;
 }
 .ourBio {
-	margin-left: 33%;
-	margin-bottom: 125px;
-	width: 55%;
+	margin-left: 40%;
+	margin-bottom: 5%;
+	width: 50%;
+	border: 2px solid #e6e6e6;
 	background-image: url(rockywall.png);
 }
 .ourBio h4 {
@@ -466,96 +613,106 @@ h1 a {
 	font-size: 30px;
 }
 .bio1 {
-	width: 320px;
+	width: 50%;
 	display: inline-block;
-	margin: 50px 0px 0px 50px;
 	text-align: center;
 	font-size: 20px;
 	vertical-align: top;
+	padding: 5% 3% 5% 5%;
 }
 
 .bioPicJohn {
 	height: 250px;
-	width: 250px;
+	width: 75%;
 	background-image: url(johnPhoto.jpg);
-	margin: 0px 0px 10px 35px;
-	border: 2px solid #5E548E;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0% 0% 5% 12%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .bio2 {
-	width: 320px;
+	width: 50%;
 	display: inline-block;
-	margin: 50px 0px 0px 50px;
 	text-align: center;
 	font-size: 20px;
+	padding: 5% 5% 5% 3%;
 }
 
 .bioPicJulia {
 	height: 250px;
-	width: 250px;
+	width: 75%;
 	background-image: url(juliaPhoto.jpg);
-	margin: 0px 0px 10px 35px;
-	border: 2px solid #5E548E;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0% 0% 5% 12%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 
 .ourWine {
 	width: 100%;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 .ourWineBox {
 	background-image: url(rockywall.png);
 	display: inline-block;
 	width: 100%;
-	margin: 50px 0px 0px 0px;
+	margin: 5% 0% 0% 0%;
 	font-size: 20px;
 	text-align: right;
+	border-top: 2px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
 }
 
 .ourWineBox p {
 	width: 50%;
-	margin-left: 125px;
+	margin: 0% 0% 0% 8%;
+	padding-bottom: 1%;
 }
 
 .ourWineBox h1 {
-	margin-right: 600px;
+	margin: 0% 42% 0% 0%;
 }
 .ourWineImg {
 	position: absolute;
 	display: inline-block;
-	width: 475px;
-	height: 530px;
-	margin: 0px 0px 0px 900px;
+	width: 30%;
+	height: 500px;
+	margin: 8% 0% 0% 62%;
 	background-image: url(grapes_vineyard.jpeg);
-	border: 2px solid #5E548E;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
-//End Our Story 
-//Wine Shop 
+//End Our Story
+//Wine Shop
 
 .wineShop {
-	color: #454851;
-	background-image: url(grapeLeafBig.png), url(grapeLeafSmall.png),url(rockywall.png);
-	background-position: 750px 825px, 10px 35px, 0px 0px;
-	background-size: 20% 20%, 13% 13%, 100% 100%;
-    background-repeat: no-repeat;
-	height: 1000px;
+	border-top: 2px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
+	color: #232C33;
+	background-image: url(rockywall.png);
+	height: 1010px;
+	font-family: CopperPlate;
 }
 .wineShop h3{
 	font-family: DancingScript;
 	font-size: 35px;
 	text-align: center;
-	padding-top: 50px;
-	margin: 0px 0px 20px 0px;
+	padding-top: 5%;
+	margin: 0% 0% 2% 2%;
 }
 .wineShop p {
 	font-size: 12px;
-	padding: 20px;
 }
+
 .wineShop a:hover {
 	color:white;
-	border: 1px solid #5E548E;
+	border: 1px solid #6C6EA0;
+	text-decoration: none;
 }
 .buyButton {
-	background-color: #5E548E;
+	background-color: #6C6EA0;
 	padding: 10px 30px 10px 30px;
 	color: white;
 	font-family: Copperplate;
@@ -564,18 +721,19 @@ h1 a {
 	position: absolute;
 	vertical-align:top;
 	width: 25%;
+	height: 80%;
 	display: inline-block;
-	margin: 50px 50px 0px 90px; 
+	margin: 50px 50px 0px 90px;
 	text-align: center;
 }
 .wineBox1Background {
 	position: absolute;
-	margin: 25px 50px 0px 75px; 
+	margin: 25px 50px 0px 75px;
 	width: 27%;
-	height: 760px;
-	opacity: 0.09;
+	height: 95%;
+	opacity: 0.2;
 	padding: 50px;
-	background-color: #8f8fa3;
+	background-color: #999B99;
 }
 .wineBox2 {
 	position: absolute;
@@ -583,16 +741,16 @@ h1 a {
 	width: 25%;
 	display: inline-block;
 	margin: 50px 50px 100px 540px;
-	text-align: center; 
+	text-align: center;
 }
 .wineBox2Background {
 	position: absolute;
-	margin: 25px 50px 0px 525px; 
+	margin: 25px 50px 0px 525px;
 	width: 27%;
-	height: 730px;
-	opacity: 0.09;
+	height: 92%;
+	opacity: 0.2;
 	padding: 50px;
-	background-color: #8f8fa3;
+	background-color: #999B99;
 }
 .wineBox3 {
 	position: absolute;
@@ -600,21 +758,21 @@ h1 a {
 	width: 25%;
 	display: inline-block;
 	margin: 50px 50px 100px 990px;
-	text-align: center; 
+	text-align: center;
 }
 .wineBox3Background {
 	position: absolute;
-	margin: 25px 50px 0px 975px; 
+	margin: 25px 50px 0px 975px;
 	width: 27%;
-	height: 760px;
-	opacity: 0.09;
+	height: 95%;
+	opacity: 0.2;
 	padding: 50px;
-	background-color: #8f8fa3;
+	background-color: #999B99;
 }
 .wineTitle h4 {
 	font-family: Copperplate;
 	margin-bottom: 0px;
-	font-size: 30px;	
+	font-size: 30px;
 }
 .wineTitle h5 {
 	font-family: Copperplate;
@@ -623,27 +781,36 @@ h1 a {
 .wineBottle1 {
 	width: 50%;
 	background-image: url(glenetMelangeWinePage.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	height: 320px;
 	margin: 0px 0px 0px 90px;
-	border: 2px solid #5E548E;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .wineBottle2 {
 	width: 50%;
 	background-image: url(pinotGrisWinePage.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	height: 320px;
 	margin: 0px 0px 0px 90px;
-	border: 2px solid #5E548E;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .wineBottle3 {
 	width: 50%;
 	background-image: url(pinotNoirWinePage.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	height: 320px;
 	margin: 0px 0px 0px 90px;
-	border: 2px solid #5E548E;
+	box-shadow: 5px 5px 2px #AEB1AE;
+}
+.wineDescrip {
+	margin-bottom: 5%;
 }
 .wineDescrip p {
 	font-size: 22px;
-	padding: 15px 15px 10px 15px;
+	padding: 8% 8% 2% 8%;
 }
 .wineDescrip h4 {
 	font-family: Copperplate;
@@ -653,375 +820,539 @@ h1 a {
 //End Wine Shop
 // Membership
 .membership {
-	background-color: #e3e3e8;
-	color: #454851;
+	background-color: #EFF2EF;
+	color: #232C33;
+	font-family: CopperPlate;
 }
 .newMemberIntro {
-	margin-bottom: 150px;
+	margin-bottom: 10%;
 }
 .newMemberBox {
-	background-image: url(rockywall.png);
-	height: 550px;
-	text-align: right;
+	border-top: 2px solid #e6e6e6;
+	background: linear-gradient(to bottom, rgba(239,242,239,0),
+  				rgba(239,242,239, 1)), url(rockywall.png);
+	text-align: left;
+	padding-bottom: 20%;
 }
 .newMemberBox h1 {
-	margin: 0px 0px 20px 140px;
+	margin: 0% 0% 2% 10%;
 	width: 45%;
-	padding-top: 50px;
+	padding-top: 5%;
 	font-family: DancingScript;
 	font-size: 48px;
 }
 .newMemberBox p {
 	font-size: 20px;
-	width: 40%;
-	margin: 0px 0px 20px 200px;
+	width: 38%;
+	margin: 0% 0% 2% 10%;
 }
 
 .joinBox {
-	margin-right: 665px;
+	display: inline-block;
+	width: 25%;
+	margin-left: 33%;
 }
 .joinBox p {
+	margin: 5% 0% 0% 0%;
+	width: 100%;
 	font-size: 12px;
-	margin: 10px 0px 0px 465px;
 }
 .joinBox a:hover {
-	color:white;
-	border: 1px solid #5E548E;
+	color: white;
+	border: 1px solid #6C6EA0;
+	text-decoration: none;
 }
 .newMemberIcon {
-	height: 500px;
-	width: 440px;
-	background-image: url(flowerBranch2.png);
+	height: 11%;
+	width: 8%;
+	background-image: url(grapeLeafBig.png);
 	background-size: 100% 100%;
     background-repeat: no-repeat;
-    position:absolute; 
-    margin: -350px 0px 0px 125px;
+    position:absolute;
+    margin: -20% 0% 0% 20%;
+}
+.newMemberIcon:hover {
+	height: 12%;
+	width: 9%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    margin: -20% 0% 0% 20%;
+}
+.newMemberIcon2 {
+	height: 19%;
+	width: 10%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    margin: -13% 0% 0% 43%;
+}
+.newMemberIcon2:hover {
+	height: 20%;
+	width: 11%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    margin: -13% 0% 0% 43%;
 }
 .newMemberImg {
 	position:absolute;
-	width: 400px;
-	height: 600px;
-	margin: 0px 0px 0px 825px;
+	width: 28%;
+	height: 62%;
+	margin: 3% 0% 0% 62%;
 	background-image: url(wine_member.jpg);
-	border: 2px solid #5E548E;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .benefitsImg {
 	display: inline-block;
 	position: absolute;
-	margin: 25px 0px 0px 75px;
-	width: 500px;
-	height: 375px;
+	margin: 3% 0% 0% 10%;
+	width: 35%;
+	height: 45%;
 	background-image: url(allWine.jpg);
-	border: 2px solid #5E548E;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .benefits {
-	background: linear-gradient(to right, rgba(255,255,255,0),
-  				rgba(227, 227, 232, 1)), url(rockywall.png);
+	border-top: 2px solid #e6e6e6;
+	background: linear-gradient(to bottom, rgba(239,242,239,0),
+  				rgba(239,242,239, 1)), url(rockywall.png);
 	display: inline-block;
-	margin: 75px 0px 0px 0px;
+	margin: 0% 0% 10% 0%;
+	padding: 5% 0% 0% 0%;
 	width: 100%;
-	height: 400px;
 }
 .benefits h1 {
+	margin: 0% 0% 0% 50%;
 	font-family: DancingScript;
-	margin: 20px 0px 0px 640px;
 	font-size: 40px;
 }
 .benefits ul {
-	margin: 20px 0px 20px 640px;
+	margin: 2% 0% 2% 50%;
 	font-size: 20px;
 	width: 50%;
 }
+.benefits li {
+	padding-bottom: 2%;
+}
 .benefits a {
-	margin-left: 660px;
-	background-color: #5E548E;
+	margin-left: 50%;
+	background-color: #6C6EA0;
 	padding: 10px 30px 10px 30px;
 	color: white;
 	font-family: Copperplate;
 }
 .benefits a:hover {
 	color:white;
-	border: 1px solid #5E548E;
+	border: 1px solid #6C6EA0;
+	text-decoration: none;
 }
 .benefitsIcon {
-	height: 300px;
-	width: 300px;
+	width: 15%;
+	height: 20%;
+	position: absolute;
+	background-image: url(grapeLeafBig.png);
+		background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -10% 0% 0% 65%;
+}
+.benefitsIcon:hover {
+	width: 16%;
+	height: 21%;
+	position: absolute;
+	background-image: url(grapeLeafBig.png);
+		background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -10% 0% 0% 65%;
+}
+.benefitsIcon2 {
+	width: 8%;
+	height: 14%;
+	position: absolute;
 	background-image: url(grapeLeafSmall.png);
 	background-size: 100% 100%;
     background-repeat: no-repeat;
-    position:absolute; 
-    margin: -200px 0px 0px 950px;
+    margin: 6% 0% 0% 82%;
 }
-.memberOptions {
-	padding-bottom: 100px;
-	height: 100%;
-    color:#5E548E;
-}
-.membershipOptionsIcon {
-	height: 350px;
-	width: 350px;
-	background-image: url(grapeVineLeafColor.png);
+.benefitsIcon2:hover {
+	width: 9%;
+	height: 15%;
+	position: absolute;
+	background-image: url(grapeLeafSmall.png);
 	background-size: 100% 100%;
     background-repeat: no-repeat;
-    position:absolute; 
-    margin: -175px 0px 0px -20px;
+    margin: 6% 0% 0% 82%;
 }
+.memberOptions {
+	padding-bottom: 10%;
+	height: 100%;
+    color: #232C33;
+    background: linear-gradient(to top, rgba(239,242,239,0),
+  				rgba(239,242,239, 1)), url(rockywall.png);
+}
+
 .memberOptions h1 {
 	font-family: DancingScript;
 	font-size: 40px;
-	margin: 0px 0px 50px 200px; 
-	padding-top: 100px;
-	color: #454851;
+	margin: 8% 0% 5% 12%;
+	color: #232C33;
 }
+
 .memberOptions h5 {
-	margin: 20px 0px 0px 475px;
+	margin: 2% 0% 0% 30%;
 }
 .memberButton {
-	margin: 20px 0px 0px 0px;
+	margin: 5% 0% 0% 0%;
 	text-align: center;
 }
 .memberButton a {
-	background-color: #5E548E;
-	padding: 10px 30px 10px 30px;
+	background-color: #6C6EA0;
+	padding: 12px 30px 12px 30px;
 	color: white;
 	font-family: Copperplate;
+	font-size: 14px;
+	text-decoration: none;
 }
 .memberButton a:hover {
 	color:white;
-	border: 1px solid #5E548E;
+	border: 1px solid #AEB1AE;
+	text-decoration: none;
 }
-.clubTitle {
-	margin-left: 475px;
+table {
+	width: 80%;
+	margin-left: 5%;
 }
-.clubTitle p {
-	display: inline-block;
-	width: 270px;
-	margin-bottom: 0px;
-	padding: 10px 0px 25px 0px;
+table th, td {
 	text-align: center;
-	border-right: 1px solid #454851;
-	font-size: 28px;
-	font-family: Copperplate;
+	width: 15%;
+	border-right: 1px solid #AEB1AE;
 }
-.clubTitle p:last-child {
+table th {
+	font-size: 25px;
+	font-family: Copperplate;
+	padding: 1%;
+}
+table th:first-child {
+	border-right:none;
+}
+table th:last-child {
+	border-right:none;
+}
+table td {
+	font-size:20px;
+	padding: 1%;
+}
+table td:first-child {
+	font-family: Copperplate;
+	font-size: 25px;
+	text-align: right;
+	width: 20%;
+	padding-right: 3%;
+	border-right: none;
+	border-bottom: none;
+}
+table td:last-child {
 	border-right: none;
 }
-.clubInfo {
-	width: 350px;
-	text-align: right;
-	display: inline-block;
-	font-size: 28px;
-	font-family: Copperplate;
-	margin: 10px 0px 0px 65px;
-}
-.clubInfo p {
-	margin-bottom: 20px;
-}
-.introEstate {
-	display: inline-block;
-	font-size: 20px;
-	vertical-align: top;
-	width: 270px;
-	margin: 0px 0px 0px 60px;
-	border-right: 1px solid #454851;
-	border-top: 1px solid #454851;
-}
-.introEstate p {
-	text-align: center;
-	border-bottom: 1px solid #454851;
-	padding: 15px 10px 15px 10px;
-	margin-bottom: 0px;
-}
-.introEstate p:last-child {
-	border-bottom: none;
-}
-.estate {
-	display: inline-block;
-	font-size: 20px;
-	vertical-align: top;
-	width: 270px;
-	margin: 0px 0px 0px 0px;
-	border-right: 1px solid #454851;
-	border-top: 1px solid #454851;
-}
-.estate p {
-	text-align: center;
-	border-bottom: 1px solid #454851;
-	padding: 15px 10px 15px 10px;
-	margin-bottom: 0px;
-}
-.estate p:last-child {
-	border-bottom: none;
-} 
-.collector {
-	display: inline-block;
-	font-size: 20px;
-	vertical-align: top;
-	width: 270px;
-	margin: 0px 0px 0px 0px;
-	border-top: 1px solid #454851;
-}
-.collector p {
-	text-align: center;
-	border-bottom: 1px solid #454851;
-	padding: 15px 10px 15px 10px;
-	margin-bottom: 0px;
-}
-.collector p:last-child {
-	border-bottom: none;
+
+.tableCell {
+	border-bottom: 1px solid #AEB1AE;
 }
 //End Membership
 
 //Contact Page
 .joinUs {
-	background-color: #e3e3e8;
-	height: 1200px; 
+	background-color: #EFF2EF;
+	width: 100%;
+	color: #232C33;
+	font-family: CopperPlate;
 }
 .contactBox {
-	height: 375px;
-	background: linear-gradient(to right, rgba(255,255,255,0),
-  				rgba(227, 227, 232, 1)), url(rockywall.png);
+	border-top: 2px solid #e6e6e6;
+	width: 100%;
+	height: 25%;
+	background: linear-gradient(to bottom, rgba(239,242,239,0),
+  				rgba(239,242,239,1)), url(rockywall.png);
 }
 .contactBox h1 {
 	font-size: 40px;
 	font-family: DancingScript;
-	margin: 0px 0px 20px 550px;
-	padding-top: 20px;
+	margin: 10% 0% 2% 45%;
 }
-.contactBox p {
-	font-size: 20px;
-	width: 33%;
+.contactBox h3 {
+	width: 45%;
 	display: inline-block;
-	margin: 0px 0px 20px 550px;
+	margin: 0% 0% 1% 45%;
+}
+.contactBox h4 {
+	width: 35%;
+	display: inline-block;
+	margin: 0% 0% 1% 45%;
 }
 .contactImg {
-	width: 380px;
+	width: 25%;
 	height: 500px;
 	position: absolute;
 	display: inline-block;
-	margin: 0px 0px 0px 130px;
+	margin: 3% 0% 0% 15%;
 	background-image: url(wine_tasting.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 .contactIcon {
-	height: 900px;
-	width: 575px;
-	background-image: url(flowerBranch.png);
+	height: 12%;
+	width: 10%;
+	background-image: url(grapeLeafBig.png);
 	background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin: -175px 825px;
+    margin: 6% 3%;
+    position: absolute;
+}
+.contactIcon:hover {
+	height: 13%;
+	width: 11%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 6% 3%;
+    position: absolute;
+}
+.contactIcon2 {
+	height: 20%;
+	width: 15%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -0% 73%;
+    position: absolute;
+}
+.contactIcon2:hover {
+	height: 22%;
+	width: 16%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -0% 73%;
+    position: absolute;
+}
+.contactIcon3 {
+	height: 15%;
+	width: 11%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 22% 20%;
+    position: absolute;
+}
+.contactIcon3:hover {
+	height: 16%;
+	width: 12%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 22% 20%;
+    position: absolute;
+}
+.contactIcon4 {
+	height: 17%;
+	width: 12%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -15% 10%;
+    position: absolute;
+}
+.contactIcon4:hover {
+	height: 18%;
+	width: 13%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: -15% 10%;
     position: absolute;
 }
 .mailingList {
 	width: 40%;
-	margin: 250px 0px 150px 175px;
-	padding: 0px 20px 25px 50px;
+	margin: 18% 0% 10% 45%;
+	padding: 0% 3% 2% 3%;
 	background-image: url(rockywall.png);
+	border: 2px solid #e6e6e6;
 }
+
 .mailingList h1 {
-	padding: 30px 0px 20px 10px;
 	font-size: 40px;
+	padding: 7% 0% 0% 4%;
 	font-family: DancingScript;
 }
 .mailingList p {
+	padding: 0% 2% 0% 3%;
 	font-size: 20px;
-	padding: 0px 0px 10px 10px;
-}
-.mailingList a {
-	background-color: #5E548E;
-	padding: 10px 30px 10px 30px;
-	color: white;
-	font-family: Copperplate;
 }
 .airbnb {
-	background: linear-gradient(to bottom, rgba(255,255,255,0),
-  				rgba(227, 227, 232, 1)), url(rockywall.png);
+	background: linear-gradient(to top, rgba(239,242,239,0),
+  				rgba(239,242,239,1)), url(rockywall.png);
 }
 .airbnbBox {
 	display: inline-block;
-	width: 40%;
-	height: 525px;
 	text-align: right;
-	margin: 0px 50px 0px 100px;
+	width: 45%;
+	margin: 8% 2% 0% 5%;
 }
 .airbnbBox h1 {
 	font-family: DancingScript;
 	font-size: 40px;
 }
-.airbnbBox p {
+.airbnbBox {
 	font-size: 20px;
-	padding-bottom: 20px;
+	paddin-top: 10%;
+	padding-bottom: 15%;
 }
 .airbnbBox a {
-	background-color: #5E548E;
-	padding: 10px 30px 10px 30px;
+	background-color: #6C6EA0;
+	padding: 12px 30px 12px 30px;
 	color: white;
 	font-family: Copperplate;
+	font-size: 14px;
 }
 .airbnbBox a:hover {
 	color:white;
-	border: 1px solid #5E548E;
+	border: 1px solid #6C6EA0;
+	text-decoration: none;
 }
 .airbnbImg {
 	position: absolute;
 	display: inline-block;
-	height: 430px;
-	width: 620px;
+	height: 50%;
+	width: 40%;
 	background-image: url(IMG_airbnb.jpg);
+	background-size: 100% 100%;
+	box-shadow: 5px 5px 2px #AEB1AE;
 }
 
 //End Contact
 //Register
 .register {
-	padding: 20px;
-	background-color: #e3e3e8;
+	font-family: CopperPlate;
+	border-top: 2px solid #e6e6e6;
+	padding: 5%;
+	background-color: #EFF2EF;
 	background-image: url(grapeVineColor.png);
-	background-size: 35% 100%;
+	background-size: 35% 95%;
     background-repeat: no-repeat;
-    background-position: 50px 0px; 
-    color: #454851;
+    background-position: 15%;
+    color: #232C33;
 }
 .register h2 {
 	font-family: DancingScript;
 	font-size: 40px;
-	margin: 20px 20px 20px 20px;
-	color: #5E548E;
+	margin: 5% 2% 2% 15%;
+	color: #6C6EA0;
 }
 .register li {
-	margin: 0px 0px 0px 25px; 
+	margin-left: 20%;
 	font-size: 20px;
-	padding: 5px;
+	padding-bottom: 2%;
+	width: 70%;
 }
 .membershipChoice1 {
 	background-image: url(rockywall.png);
-	width: 50%;
-	margin-left: 40%;
+	width: 40%;
+	margin-left: 50%;
 	margin-bottom: 5%;
-	padding: 5px;
-
+	padding: 1% 1% 3% 1%;
+	border: 2px solid #e6e6e6;
 }
 .membershipChoice2 {
 	background-image: url(rockywall.png);
-	width: 50%;
-	margin-left: 40%;
+	width: 40%;
+	margin-left: 50%;
 	margin-bottom: 5%;
-	padding: 5px;
-
+	padding: 1% 1% 3% 1%;
+	border: 2px solid #e6e6e6;
 }
 .membershipChoice3 {
 	background-image: url(rockywall.png);
-	width: 50%;
-	margin-left: 40%;
+	width: 40%;
+	margin-left: 50%;
 	margin-bottom: 5%;
-	padding: 5px;
-
+	padding: 1% 1% 3% 1%;
+	border: 2px solid #e6e6e6;
 }
 .membershipChoice first-child {
 	margin-top: 100px;
 }
 .register a {
-	margin-left: 75%;
+	margin-left: 60%;
 }
 .register a:hover {
 	color:white;
-	border: 1px solid #5E548E;
+	border: 1px solid #6C6EA0;
+	text-decoration: none;
+}
+// end register
+// begin order
+.orderIcon {
+	height: 18%;
+	width: 13%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin: -11% 70%;
+		position: absolute;
+}
+.orderIcon:hover {
+	height: 20%;
+	width: 15%;
+	background-image: url(grapeLeafBig.png);
+	background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin: -11% 70%;
+		position: absolute;
+}
+.orderIcon2 {
+	height: 17%;
+	width: 12%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin: -3% 18%;
+		position: absolute;
+}
+.orderIcon2:hover {
+	height: 19%;
+	width: 14%;
+	background-image: url(grapeLeafSmall.png);
+	background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin: -3% 18%;
+		position: absolute;
+}
+.orderBox {
+	text-align: center;
+	font-family: CopperPlate;
+	border-top: 2px solid #e6e6e6;
+	width: 100%;
+	padding: 15% 0% 15% 0%;
+	background: linear-gradient(to bottom, rgba(239,242,239,0),
+					rgba(239,242,239,1)), url(rockywall.png);
+}
+.orderBox h1 {
+	font-size: 40px;
+	font-family: DancingScript;
+}
+.orderBox h3 {
+	padding: 0%;
+	margin: 2% 0% 2% 0%;
+}
+.orderBox a:hover {
+	color:white;
+	border: 1px solid #6C6EA0;
+		text-decoration: none;
 }

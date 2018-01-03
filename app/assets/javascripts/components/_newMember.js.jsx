@@ -12,10 +12,10 @@ class NewMember extends React.Component {
 						<p>Glenét Vineyards Membership is a limited expeirence we trust you will enjoy. </p>
 						<div className="joinBox">
 							<a href="/register" className="buyButton">Join Now</a>
-							<p>Already a member? <a href="/shop/user/spree_user/sign_in">Login</a> now.</p>
 						</div>
 					</div>
 					<div className="newMemberIcon"></div>
+					<div className="newMemberIcon2"></div>
 				</div>
 
 				<div className="memberBenefits">
@@ -30,43 +30,50 @@ class NewMember extends React.Component {
 						<a href="/register">Join Now</a>
 					</div>
 					<div className="benefitsIcon"></div>
+					<div className="benefitsIcon2"></div>
 				</div>
 
 				<div className="memberOptions">
 					<h1>Membership Options</h1>
-					<div className="membershipOptionsIcon"></div>
-					<div className="clubTitle">
-						<p>Petite Club</p>
-						<p>Estate Club</p>
-						<p>Collector Club</p>
-					</div>
-					<div className="clubInfo">
-						<p>Shipment</p>
-						<p>Discount</p>
-						<p>Price Per Membership</p>
-						<p>Shipment Schedule</p>
-					</div>
-					<div className="introEstate">
-						<p>6 bottles</p>
-						<p>15% off</p>
-						<p>$349*</p>
-						<p>October 2017, March 2018, June 2018</p>
-						<div className="memberButton"><a href="/register">Join Now</a></div>
-					</div>
-					<div className="estate">
-						<p>8 bottles</p>
-						<p>20% off</p>
-						<p>$440*</p>
-						<p>October 2017, March 2018, June 2018</p>
-						<div className="memberButton"><a href="/register">Join Now</a></div>
-					</div>
-					<div className="collector">
-						<p>12 bottles</p>
-						<p>25% off</p>
-						<p>$652*</p>
-						<p>October 2017, March 2018, June 2018</p>
-						<div className="memberButton"><a href="/register">Join Now</a></div>
-					</div>
+
+					<table>
+						<tr>
+							<th></th>
+							<th className="tableCell">Petite Club</th>
+							<th className="tableCell">Estate Club</th>
+							<th className="tableCell">Collector Club</th>
+						</tr>
+						<tr>
+							<td>Shipment</td>
+							<td className="tableCell">6 Bottles</td>
+							<td className="tableCell">8 Bottles</td>
+							<td className="tableCell">12 Bottles</td>
+						</tr>
+						<tr>
+							<td>Discount</td>
+							<td className="tableCell">15% OFF</td>
+							<td className="tableCell">20% OFF</td>
+							<td className="tableCell">25% OFF</td>
+						</tr>
+						<tr>
+							<td>Price Per Membership</td>
+							<td className="tableCell">$349*</td>
+							<td className="tableCell">$440*</td>
+							<td className="tableCell" >$652*</td>
+						</tr>
+						<tr>
+							<td>Shipment Schedule</td>
+							<td className="tableCell">TBA</td>
+							<td className="tableCell">TBA</td>
+							<td className="tableCell">TBA</td>
+						</tr>
+						<tr >
+							<td></td>
+							<td><div className="memberButton"><a href="/register">Join Now</a></div></td>
+							<td><div className="memberButton"><a href="/register">Join Now</a></div></td>
+							<td><div className="memberButton"><a href="/register">Join Now</a></div></td>
+						</tr>
+					</table>
 					<h5>*Plus Tax and Shipping</h5>
 				</div>
 			</div>

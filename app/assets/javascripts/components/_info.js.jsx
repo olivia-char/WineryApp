@@ -4,7 +4,6 @@ class Info extends React.Component {
     	this.state = {
         email: "",
         message: null
-
     	}
   	}
 
@@ -42,28 +41,25 @@ class Info extends React.Component {
     }
   }
 
-
 	render(){
 		return (
 			<div className="joinUs">
-				
+				<div className="contactIcon"></div>
 			  <div className="contactImg"></div>
-		
         <div className="contactBox">
 				  <h1>Contact Us</h1>
-          <p>For more information contact us at ~</p>
-				  <p>Phone: (707) 738-9828</p>
-				  <p>Email: john@glenetvineyards.com</p>
-				  <p>We look forward to meeting you!</p>
+          <h3>For more information and to join memberships, contact us at -</h3>
+				  <h3>Phone: (707) 738-9828</h3>
+				  <h3>Email: john@glenetvineyards.com</h3>
 			  </div>
-        <div className="contactIcon"></div>
-				
+        <div className="contactIcon2"></div>
+				<div className="contactIcon3"></div>
         <div className="mailingList">
 					<h1>Stay Updated</h1>
 					<p>Join our mailing list and hear about our upcoming releases and attend private events.</p>
-				
+
           <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"/>
-        
+
           <div id="mc_embed_signup">
             <form action={this.props.apiScheme +this.props.apiRoot+ this.props.apiPort+ "/subscribe"} method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" noValidate>
               <div id="mc_embed_signup_scroll">
@@ -75,9 +71,9 @@ class Info extends React.Component {
             </form>
             {this.renderMessageBox()}
           </div>
-				</div>	
+				</div>
 
-
+				<div className="contactIcon4"></div>
 				<div className="airbnb">
 					<div className="airbnbBox">
 						<h1>Visit Glenét Vineyards</h1>

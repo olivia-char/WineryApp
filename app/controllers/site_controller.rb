@@ -17,6 +17,9 @@ class SiteController < ApplicationController
   def register
   end
 
+  def order
+  end
+  
   def subscribe
     gibbon = Gibbon::Request.new(api_key: ENV['MAIL_CHIMP'])
     gibbon.lists("3d8c448611").members.create(body: {email_address: params[:email], status: "subscribed"})

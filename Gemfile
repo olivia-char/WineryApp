@@ -45,6 +45,9 @@ gem 'webpacker'
 
 gem 'yarn', '~> 0.1.1'
 
+gem "passenger"
+gem "sqlite3"
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

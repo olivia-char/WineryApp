@@ -27,7 +27,7 @@ class About extends React.Component {
 					</div>
 					<div className="bio2">
 						<div className="bioPicJulia"></div>
-						<p>Julia McCarthy</p> 
+						<p>Julia McCarthy</p>
 						<h4>Chief Wine Aficionado</h4>
 						<p>Behind every successful endeavor, there is always one smart person!</p>
 					</div>
