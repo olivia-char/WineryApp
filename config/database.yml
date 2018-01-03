@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: WineryApp_production
-  username: WineryApp
-  password: <%= ENV['WINERYAPP_DATABASE_PASSWORD'] %>
+  database: WineryApp_development
