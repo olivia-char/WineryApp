@@ -80,5 +80,6 @@ test:
 #
 production:
   <<: *default
-  adapter: sqlite3
-  database: db/development.sqlite3
+  database: WineryApp_production
+  username: WineryApp
+  password: <%= ENV['WINERYAPP_DATABASE_PASSWORD'] %>
