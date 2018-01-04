@@ -41,9 +41,6 @@ gem 'react-bootstrap-rails', '~> 0.13.0'
 
 gem 'nodejs-rails', '~> 0.0.1'
 
-gem 'webpacker'
-
-gem 'yarn', '~> 0.1.1'
 
 gem "passenger"
 gem "sqlite3"
